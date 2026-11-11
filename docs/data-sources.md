@@ -48,6 +48,24 @@ as webp, and emits this exact layout. Three worked examples live in
 `packs/` and `media/` — legacy `index/previews.json` / `rename_map.json` are merged when
 present but are no longer required.
 
+**Text layer.** Each pack carries `capture.sections[]`, one object per 800px band:
+`title`, `text`, and `lines[]` with page-space boxes. Lines arrive from two sources,
+deliberately kept distinct:
+
+| `source` | How | Accuracy | Purpose |
+|---|---|---|---|
+| `dom` | TreeWalker over text nodes, `getBoundingClientRect` + scroll offset | exact | primary text layer |
+| `ocr` | rapidocr over the section screenshot | ~95% | canvas / image / SVG text the DOM cannot see |
+
+Only OCR lines that do not overlap a DOM line are kept, so the two never double-count.
+A pure-image marketing page still yields searchable text; a text-heavy product page gets
+exact boxes. Search in `find_ui_references` reads both.
+
+**Geometry and patterns.** `capture_site.py` also records `geometry` (`headingWidth`,
+`buttonShape`, `contentWidth`, `containerMaxWidth`) and infers `patterns` from DOM
+structure — a `<form>` is Form, a `<table>` is Data table, an `[aria-expanded]` is
+Disclosure, more than eight `<a>` is Link grid.
+
 **Rights.** A pack is a capture of a third-party product made for design study. It is not
 a license to reuse that product's branding, logotype, copy or imagery. See the note in
 [`../skill/uiycs-ui/SKILL.md`](../skill/uiycs-ui/SKILL.md).

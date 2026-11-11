@@ -110,6 +110,17 @@ def build_entry(slug, d, previews, rename):
     colors = [c for c in colors if c.get('hex')][:8]
 
     screens = []
+    # web packs: capture.sections[] carries per-section text and boxes
+    for s in cap.get('sections') or []:
+        screens.append({
+            'id': s.get('id'),
+            'title': s.get('title') or '',
+            'patterns': s.get('patterns') or [],
+            'action': s.get('scrollY'),
+            'text': (s.get('text') or '')[:2000],
+            'image': resolve(slug, s.get('imageUrl')),
+        })
+    # ios packs: iosCapture.screens[]
     for s in ic.get('screens') or []:
         screens.append({
             'id': s.get('id'),

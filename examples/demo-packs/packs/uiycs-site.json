@@ -5,7 +5,8 @@
  "tagline": "本地 UI 参考与设计素材库：685 个真实产品、217 个字体族、6,307 个图标名、750 段动效，经 MCP 提供，查询时完全离线。",
  "theme": "Landing page",
  "site": "https://jensen-yao.github.io/uiycs/",
- "capturedAt": "2026-11-11T07:07:33.488974+00:00",
+ "lang": "zh-CN",
+ "capturedAt": "2026-11-11T07:22:44.607873+00:00",
  "colors": [
   {
    "hex": "#141413",
@@ -33,8 +34,8 @@
   }
  ],
  "inspector": {
-  "version": 1,
-  "source": "computed-style",
+  "version": 2,
+  "source": "computed-style+dom",
   "palette": [
    {
     "hex": "#141413",
@@ -103,6 +104,23 @@
     "letterSpacing": -0.16
    }
   ],
+  "geometry": {
+   "headingWidth": 556,
+   "headingBox": {
+    "width": 556,
+    "height": 129,
+    "x": 80
+   },
+   "buttonShape": "99px",
+   "buttonBox": {
+    "width": 131,
+    "height": 46,
+    "x": 80
+   },
+   "contentWidth": 1280,
+   "viewportWidth": 1280,
+   "containerMaxWidth": "none"
+  },
   "views": [
    {
     "label": "Desktop",
@@ -116,8 +134,1927 @@
     "width": 390,
     "height": 844
    }
-  ],
-  "geometry": {}
+  ]
+ },
+ "capture": {
+  "capturedAt": "2026-11-11T07:22:44.607910+00:00",
+  "pageHeight": 2745,
+  "sections": [
+   {
+    "id": "section-01",
+    "title": "一个 agent 被要求\"把这个界面做得像个真产品\"时，通常是自己发明一套设计语汇，而不是去看一套。",
+    "text": "uiycs 工具 数据 安装 仓库 Star 模型上下文协议 · stdio · 无需账号 先看见 真的 再动手。 一个 agent 被要求\"把这个界面做得像个真产品\"时，通常是自己发明一套设计语汇，而不是去看一套。 uiycs 给它 685 个真实产品的截屏、真实的排版比例与配色，217 个带许可文件的字体族， 6,307 个图标名和 750 段动效——全部从本地磁盘，经一个 MCP server 提供。 开始使用 查看源码 685 个采集参考里的三个 — 真实产品，不是模板 685 参考包 217 字体族 6,307 图标名 750 动效",
+    "lines": [
+     {
+      "text": "uiycs",
+      "box": {
+       "x": 80,
+       "y": 18,
+       "width": 70,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "工具",
+      "box": {
+       "x": 538,
+       "y": 20,
+       "width": 29,
+       "height": 25
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "数据",
+      "box": {
+       "x": 593,
+       "y": 20,
+       "width": 29,
+       "height": 25
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "安装",
+      "box": {
+       "x": 648,
+       "y": 20,
+       "width": 29,
+       "height": 25
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "仓库",
+      "box": {
+       "x": 703,
+       "y": 20,
+       "width": 29,
+       "height": 25
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "Star",
+      "box": {
+       "x": 1120,
+       "y": 14,
+       "width": 80,
+       "height": 36
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "模型上下文协议 · stdio · 无需账号",
+      "box": {
+       "x": 80,
+       "y": 149,
+       "width": 225,
+       "height": 35
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "先看见",
+      "box": {
+       "x": 80,
+       "y": 212,
+       "width": 556,
+       "height": 129
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "真的",
+      "box": {
+       "x": 234,
+       "y": 210,
+       "width": 103,
+       "height": 67
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "再动手。",
+      "box": {
+       "x": 80,
+       "y": 212,
+       "width": 556,
+       "height": 129
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "一个 agent 被要求\"把这个界面做得像个真产品\"时，通常是自己发明一套设计语汇，而不是去看一套。",
+      "box": {
+       "x": 80,
+       "y": 363,
+       "width": 525,
+       "height": 162
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "uiycs",
+      "box": {
+       "x": 346,
+       "y": 401,
+       "width": 43,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "给它 685 个真实产品的截屏、真实的排版比例与配色，217 个带许可文件的字体族， 6,307 个图标名和 750 段动效——全部从本地磁盘，经一个 MCP server 提供。",
+      "box": {
+       "x": 80,
+       "y": 363,
+       "width": 525,
+       "height": 162
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "开始使用",
+      "box": {
+       "x": 80,
+       "y": 559,
+       "width": 131,
+       "height": 46
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "查看源码",
+      "box": {
+       "x": 223,
+       "y": 559,
+       "width": 131,
+       "height": 46
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "685 个采集参考里的三个 — 真实产品，不是模板",
+      "box": {
+       "x": 686,
+       "y": 625,
+       "width": 514,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "685",
+      "box": {
+       "x": 101,
+       "y": 742,
+       "width": 239,
+       "height": 36
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "参考包",
+      "box": {
+       "x": 101,
+       "y": 788,
+       "width": 239,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "217",
+      "box": {
+       "x": 381,
+       "y": 742,
+       "width": 239,
+       "height": 36
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "字体族",
+      "box": {
+       "x": 381,
+       "y": 788,
+       "width": 239,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "6,307",
+      "box": {
+       "x": 660,
+       "y": 742,
+       "width": 239,
+       "height": 36
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "图标名",
+      "box": {
+       "x": 660,
+       "y": 788,
+       "width": 239,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "750",
+      "box": {
+       "x": 940,
+       "y": 742,
+       "width": 239,
+       "height": 36
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "动效",
+      "box": {
+       "x": 940,
+       "y": 788,
+       "width": 239,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     }
+    ],
+    "imageUrl": "media/uiycs-site/section-01.webp",
+    "width": 1280,
+    "height": 800,
+    "scrollY": 0
+   },
+   {
+    "id": "section-02",
+    "title": "从公开源头构建，",
+    "text": "参考包 字体族 图标名 动效 服务端 三个工具，一棵目录树。 每个结果都是磁盘上的绝对路径，附带它自己的许可。 find_ui_references 在包元数据和每屏 OCR 文本上做加权检索。返回布局、token 和状态。 配色 · 排版 · 几何 每屏 OCR 与交互模式 平台 web ios find_ui_materials 四个 kind，每一个都是真检索——不是元数据占位。 font 217 个字体族 + 许可 icon 四套，2.7 万 SVG animated_icon 750 段 Lottie get_pack_detail 一个包，完整记录：每一屏和它的 OCR 文本，每一个采集视图和动效。 id · slug · 精确名称 poster · 整页 · 动效 亚毫秒级查询 数据 从公开源头构建， 逐个文件核验。 8.4 GB 数据不进仓库。每一层都由脚本重建，并校验悬空路径。",
+    "lines": [
+     {
+      "text": "参考包",
+      "box": {
+       "x": 101,
+       "y": 788,
+       "width": 239,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "字体族",
+      "box": {
+       "x": 381,
+       "y": 788,
+       "width": 239,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "图标名",
+      "box": {
+       "x": 660,
+       "y": 788,
+       "width": 239,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "动效",
+      "box": {
+       "x": 940,
+       "y": 788,
+       "width": 239,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "服务端",
+      "box": {
+       "x": 80,
+       "y": 932,
+       "width": 383,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "三个工具，一棵目录树。",
+      "box": {
+       "x": 80,
+       "y": 966,
+       "width": 383,
+       "height": 46
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "每个结果都是磁盘上的绝对路径，附带它自己的许可。",
+      "box": {
+       "x": 864,
+       "y": 930,
+       "width": 336,
+       "height": 25
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "find_ui_references",
+      "box": {
+       "x": 105,
+       "y": 1129,
+       "width": 313,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "在包元数据和每屏 OCR 文本上做加权检索。返回布局、token 和状态。",
+      "box": {
+       "x": 105,
+       "y": 1163,
+       "width": 313,
+       "height": 50
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "配色 · 排版 · 几何",
+      "box": {
+       "x": 105,
+       "y": 1229,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "每屏 OCR 与交互模式",
+      "box": {
+       "x": 105,
+       "y": 1257,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "平台",
+      "box": {
+       "x": 105,
+       "y": 1285,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "web",
+      "box": {
+       "x": 162,
+       "y": 1285,
+       "width": 32,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "ios",
+      "box": {
+       "x": 203,
+       "y": 1285,
+       "width": 32,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "find_ui_materials",
+      "box": {
+       "x": 484,
+       "y": 1129,
+       "width": 313,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "四个 kind，每一个都是真检索——不是元数据占位。",
+      "box": {
+       "x": 484,
+       "y": 1163,
+       "width": 313,
+       "height": 50
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "font",
+      "box": {
+       "x": 506,
+       "y": 1228,
+       "width": 38,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "217 个字体族 + 许可",
+      "box": {
+       "x": 484,
+       "y": 1228,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "icon",
+      "box": {
+       "x": 506,
+       "y": 1257,
+       "width": 38,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "四套，2.7 万 SVG",
+      "box": {
+       "x": 484,
+       "y": 1257,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "animated_icon",
+      "box": {
+       "x": 506,
+       "y": 1285,
+       "width": 98,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "750 段 Lottie",
+      "box": {
+       "x": 484,
+       "y": 1285,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "get_pack_detail",
+      "box": {
+       "x": 862,
+       "y": 1129,
+       "width": 313,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "一个包，完整记录：每一屏和它的 OCR 文本，每一个采集视图和动效。",
+      "box": {
+       "x": 862,
+       "y": 1163,
+       "width": 313,
+       "height": 50
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "id · slug · 精确名称",
+      "box": {
+       "x": 862,
+       "y": 1230,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "poster · 整页 · 动效",
+      "box": {
+       "x": 862,
+       "y": 1257,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "亚毫秒级查询",
+      "box": {
+       "x": 862,
+       "y": 1285,
+       "width": 313,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "数据",
+      "box": {
+       "x": 80,
+       "y": 1425,
+       "width": 279,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "从公开源头构建，",
+      "box": {
+       "x": 80,
+       "y": 1458,
+       "width": 279,
+       "height": 92
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "逐个文件核验。",
+      "box": {
+       "x": 80,
+       "y": 1458,
+       "width": 279,
+       "height": 92
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "8.4 GB 数据不进仓库。每一层都由脚本重建，并校验悬空路径。",
+      "box": {
+       "x": 864,
+       "y": 1423,
+       "width": 336,
+       "height": 50
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "uiycs",
+      "box": {
+       "x": 102,
+       "y": 822,
+       "width": 52,
+       "height": 21
+      },
+      "confidence": 0.823,
+      "source": "ocr"
+     },
+     {
+      "text": "工具",
+      "box": {
+       "x": 536,
+       "y": 822,
+       "width": 35,
+       "height": 19
+      },
+      "confidence": 0.588,
+      "source": "ocr"
+     },
+     {
+      "text": "数据",
+      "box": {
+       "x": 591,
+       "y": 822,
+       "width": 35,
+       "height": 19
+      },
+      "confidence": 0.66,
+      "source": "ocr"
+     },
+     {
+      "text": "安装",
+      "box": {
+       "x": 647,
+       "y": 822,
+       "width": 34,
+       "height": 19
+      },
+      "confidence": 0.666,
+      "source": "ocr"
+     },
+     {
+      "text": "仓库",
+      "box": {
+       "x": 703,
+       "y": 822,
+       "width": 33,
+       "height": 19
+      },
+      "confidence": 0.508,
+      "source": "ocr"
+     },
+     {
+      "text": "Q Star",
+      "box": {
+       "x": 1134,
+       "y": 822,
+       "width": 54,
+       "height": 21
+      },
+      "confidence": 0.622,
+      "source": "ocr"
+     }
+    ],
+    "imageUrl": "media/uiycs-site/section-02.webp",
+    "width": 1280,
+    "height": 800,
+    "scrollY": 800
+   },
+   {
+    "id": "section-03",
+    "title": ": {",
+    "text": "界面采集 4,223 屏 685 个产品 · web + iOS · token、组件、OCR。 7.8 GB 网页字体 114 个字体族 Google Fonts CSS2 API · woff2 分片 · OFL 免费商用 100 个字体族 Fontshare CSS API · 300–800 + 斜体 · ITF FFL 中文字体 3 个字体族 思源黑/宋可变字体 + 霞鹜文楷 · OFL 图标 27,278 SVG lucide · heroicons · Material Symbols · ISC/MIT/Apache 动效 750 段 Lottie 免费层 + 社区仓库 · .lottie .json 运行时 0 个依赖 只用 Python 标准库 · 查询时离线 完整性 0 悬空 覆盖 31,017 条清单引用 安装 两个文件，一个环境变量。 不用 pip install。不用 API key。server 只读本地文件，经 stdio 应答。 克隆并构建 采集器按层从各自的公开源拉取，索引构建器随后遍历文件系统。 python tools/collect_icons.py → 五分钟内拿到 27,278 个 SVG。 指向数据 只有一个变量： UIYCS_HOME 。默认取仓库根，从 tools/ 里运行时自动上溯一级。 注册 server 任何支持 stdio MCP 的客户端都能接。Claude Code、Cursor、Codex、ZCode、DSH——同样三行配置。 .mcp.json config.toml 验证 复制 \"mcpServers\" : { \"uiycs\" : { \"command\" \"python\" \"args\" : [ \"/path/to/uiycs/mcp_server.py\" ], \"env\" : { \"UIYCS_HOME\" \"/path/to/uiycs\" } } } }",
+    "lines": [
+     {
+      "text": "界面采集",
+      "box": {
+       "x": 101,
+       "y": 1608,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "4,223 屏",
+      "box": {
+       "x": 101,
+       "y": 1637,
+       "width": 239,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "685 个产品 · web + iOS · token、组件、OCR。",
+      "box": {
+       "x": 101,
+       "y": 1671,
+       "width": 239,
+       "height": 40
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "7.8 GB",
+      "box": {
+       "x": 141,
+       "y": 1693,
+       "width": 48,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "网页字体",
+      "box": {
+       "x": 381,
+       "y": 1608,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "114 个字体族",
+      "box": {
+       "x": 381,
+       "y": 1637,
+       "width": 239,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "Google Fonts CSS2 API · woff2 分片 ·",
+      "box": {
+       "x": 381,
+       "y": 1671,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "OFL",
+      "box": {
+       "x": 587,
+       "y": 1673,
+       "width": 29,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "免费商用",
+      "box": {
+       "x": 660,
+       "y": 1608,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "100 个字体族",
+      "box": {
+       "x": 660,
+       "y": 1637,
+       "width": 239,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "Fontshare CSS API · 300–800 + 斜体 ·",
+      "box": {
+       "x": 660,
+       "y": 1671,
+       "width": 239,
+       "height": 40
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "ITF FFL",
+      "box": {
+       "x": 660,
+       "y": 1673,
+       "width": 236,
+       "height": 36
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "中文字体",
+      "box": {
+       "x": 940,
+       "y": 1608,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "3 个字体族",
+      "box": {
+       "x": 940,
+       "y": 1637,
+       "width": 239,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "思源黑/宋可变字体 + 霞鹜文楷 ·",
+      "box": {
+       "x": 940,
+       "y": 1671,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "OFL",
+      "box": {
+       "x": 1114,
+       "y": 1673,
+       "width": 29,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "图标",
+      "box": {
+       "x": 101,
+       "y": 1756,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "27,278 SVG",
+      "box": {
+       "x": 101,
+       "y": 1786,
+       "width": 239,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "lucide · heroicons · Material Symbols ·",
+      "box": {
+       "x": 101,
+       "y": 1820,
+       "width": 239,
+       "height": 40
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "ISC/MIT/Apache",
+      "box": {
+       "x": 101,
+       "y": 1842,
+       "width": 99,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "动效",
+      "box": {
+       "x": 381,
+       "y": 1756,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "750 段 Lottie",
+      "box": {
+       "x": 381,
+       "y": 1786,
+       "width": 239,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "免费层 + 社区仓库 ·",
+      "box": {
+       "x": 381,
+       "y": 1820,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ".lottie",
+      "box": {
+       "x": 486,
+       "y": 1822,
+       "width": 54,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ".json",
+      "box": {
+       "x": 552,
+       "y": 1822,
+       "width": 42,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "运行时",
+      "box": {
+       "x": 660,
+       "y": 1756,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "0 个依赖",
+      "box": {
+       "x": 660,
+       "y": 1786,
+       "width": 239,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "只用 Python 标准库 · 查询时离线",
+      "box": {
+       "x": 660,
+       "y": 1820,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "完整性",
+      "box": {
+       "x": 940,
+       "y": 1756,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "0 悬空",
+      "box": {
+       "x": 940,
+       "y": 1786,
+       "width": 239,
+       "height": 27
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "覆盖 31,017 条清单引用",
+      "box": {
+       "x": 940,
+       "y": 1820,
+       "width": 239,
+       "height": 20
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "安装",
+      "box": {
+       "x": 80,
+       "y": 1977,
+       "width": 418,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "两个文件，一个环境变量。",
+      "box": {
+       "x": 80,
+       "y": 2010,
+       "width": 418,
+       "height": 46
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "不用 pip install。不用 API key。server 只读本地文件，经 stdio 应答。",
+      "box": {
+       "x": 864,
+       "y": 1975,
+       "width": 336,
+       "height": 50
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "克隆并构建",
+      "box": {
+       "x": 137,
+       "y": 2091,
+       "width": 443,
+       "height": 26
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "采集器按层从各自的公开源拉取，索引构建器随后遍历文件系统。",
+      "box": {
+       "x": 137,
+       "y": 2123,
+       "width": 443,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "python tools/collect_icons.py",
+      "box": {
+       "x": 137,
+       "y": 2160,
+       "width": 211,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "→ 五分钟内拿到 27,278 个 SVG。",
+      "box": {
+       "x": 137,
+       "y": 2155,
+       "width": 443,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "指向数据",
+      "box": {
+       "x": 137,
+       "y": 2206,
+       "width": 443,
+       "height": 26
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "只有一个变量：",
+      "box": {
+       "x": 137,
+       "y": 2238,
+       "width": 443,
+       "height": 49
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "UIYCS_HOME",
+      "box": {
+       "x": 232,
+       "y": 2243,
+       "width": 81,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "。默认取仓库根，从",
+      "box": {
+       "x": 137,
+       "y": 2238,
+       "width": 443,
+       "height": 49
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "tools/",
+      "box": {
+       "x": 436,
+       "y": 2243,
+       "width": 53,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "里运行时自动上溯一级。",
+      "box": {
+       "x": 137,
+       "y": 2238,
+       "width": 443,
+       "height": 49
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "注册 server",
+      "box": {
+       "x": 137,
+       "y": 2313,
+       "width": 443,
+       "height": 26
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "任何支持 stdio MCP 的客户端都能接。Claude Code、Cursor、Codex、ZCode、DSH——同样三行配置。",
+      "box": {
+       "x": 137,
+       "y": 2346,
+       "width": 443,
+       "height": 49
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ".mcp.json",
+      "box": {
+       "x": 639,
+       "y": 2103,
+       "width": 82,
+       "height": 31
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "config.toml",
+      "box": {
+       "x": 729,
+       "y": 2103,
+       "width": 96,
+       "height": 31
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "验证",
+      "box": {
+       "x": 833,
+       "y": 2103,
+       "width": 46,
+       "height": 31
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "复制",
+      "box": {
+       "x": 1145,
+       "y": 2106,
+       "width": 40,
+       "height": 25
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"mcpServers\"",
+      "box": {
+       "x": 656,
+       "y": 2192,
+       "width": 75,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ": {",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"uiycs\"",
+      "box": {
+       "x": 669,
+       "y": 2215,
+       "width": 44,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ": {",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"command\"",
+      "box": {
+       "x": 681,
+       "y": 2238,
+       "width": 57,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"python\"",
+      "box": {
+       "x": 750,
+       "y": 2238,
+       "width": 50,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"args\"",
+      "box": {
+       "x": 681,
+       "y": 2261,
+       "width": 38,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ": [",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"/path/to/uiycs/mcp_server.py\"",
+      "box": {
+       "x": 738,
+       "y": 2261,
+       "width": 189,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "],",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"env\"",
+      "box": {
+       "x": 681,
+       "y": 2285,
+       "width": 31,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ": {",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"UIYCS_HOME\"",
+      "box": {
+       "x": 738,
+       "y": 2285,
+       "width": 75,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"/path/to/uiycs\"",
+      "box": {
+       "x": 826,
+       "y": 2285,
+       "width": 101,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "} } } }",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     }
+    ],
+    "imageUrl": "media/uiycs-site/section-03.webp",
+    "width": 1280,
+    "height": 800,
+    "scrollY": 1600
+   },
+   {
+    "id": "section-04",
+    "title": ": {",
+    "text": "安装 两个文件，一个环境变量。 不用 pip install。不用 API key。server 只读本地文件，经 stdio 应答。 克隆并构建 采集器按层从各自的公开源拉取，索引构建器随后遍历文件系统。 python tools/collect_icons.py → 五分钟内拿到 27,278 个 SVG。 指向数据 只有一个变量： UIYCS_HOME 。默认取仓库根，从 tools/ 里运行时自动上溯一级。 注册 server 任何支持 stdio MCP 的客户端都能接。Claude Code、Cursor、Codex、ZCode、DSH——同样三行配置。 装上 skill cp -r skill/uiycs-ui ~/.agents/skills/ skill 是一套工作流，不是依赖。没有 server 它会优雅降级。 .mcp.json config.toml 验证 复制 \"mcpServers\" : { \"uiycs\" : { \"command\" \"python\" \"args\" : [ \"/path/to/uiycs/mcp_server.py\" ], \"env\" : { \"UIYCS_HOME\" \"/path/to/uiycs\" } } } } uiycs — MIT。随附的字体、图标与动效保留各自的许可。 本页面由 uiycs-ui skill 一次生成 · 第一版 33 KB / ≈30 秒 仓库 数据源 MCP 参考",
+    "lines": [
+     {
+      "text": "安装",
+      "box": {
+       "x": 80,
+       "y": 1977,
+       "width": 418,
+       "height": 21
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "两个文件，一个环境变量。",
+      "box": {
+       "x": 80,
+       "y": 2010,
+       "width": 418,
+       "height": 46
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "不用 pip install。不用 API key。server 只读本地文件，经 stdio 应答。",
+      "box": {
+       "x": 864,
+       "y": 1975,
+       "width": 336,
+       "height": 50
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "克隆并构建",
+      "box": {
+       "x": 137,
+       "y": 2091,
+       "width": 443,
+       "height": 26
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "采集器按层从各自的公开源拉取，索引构建器随后遍历文件系统。",
+      "box": {
+       "x": 137,
+       "y": 2123,
+       "width": 443,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "python tools/collect_icons.py",
+      "box": {
+       "x": 137,
+       "y": 2160,
+       "width": 211,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "→ 五分钟内拿到 27,278 个 SVG。",
+      "box": {
+       "x": 137,
+       "y": 2155,
+       "width": 443,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "指向数据",
+      "box": {
+       "x": 137,
+       "y": 2206,
+       "width": 443,
+       "height": 26
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "只有一个变量：",
+      "box": {
+       "x": 137,
+       "y": 2238,
+       "width": 443,
+       "height": 49
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "UIYCS_HOME",
+      "box": {
+       "x": 232,
+       "y": 2243,
+       "width": 81,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "。默认取仓库根，从",
+      "box": {
+       "x": 137,
+       "y": 2238,
+       "width": 443,
+       "height": 49
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "tools/",
+      "box": {
+       "x": 436,
+       "y": 2243,
+       "width": 53,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "里运行时自动上溯一级。",
+      "box": {
+       "x": 137,
+       "y": 2238,
+       "width": 443,
+       "height": 49
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "注册 server",
+      "box": {
+       "x": 137,
+       "y": 2313,
+       "width": 443,
+       "height": 26
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "任何支持 stdio MCP 的客户端都能接。Claude Code、Cursor、Codex、ZCode、DSH——同样三行配置。",
+      "box": {
+       "x": 137,
+       "y": 2346,
+       "width": 443,
+       "height": 49
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "装上 skill",
+      "box": {
+       "x": 137,
+       "y": 2420,
+       "width": 443,
+       "height": 26
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "cp -r skill/uiycs-ui ~/.agents/skills/",
+      "box": {
+       "x": 137,
+       "y": 2458,
+       "width": 273,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "skill 是一套工作流，不是依赖。没有 server 它会优雅降级。",
+      "box": {
+       "x": 137,
+       "y": 2485,
+       "width": 443,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ".mcp.json",
+      "box": {
+       "x": 639,
+       "y": 2103,
+       "width": 82,
+       "height": 31
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "config.toml",
+      "box": {
+       "x": 729,
+       "y": 2103,
+       "width": 96,
+       "height": 31
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "验证",
+      "box": {
+       "x": 833,
+       "y": 2103,
+       "width": 46,
+       "height": 31
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "复制",
+      "box": {
+       "x": 1145,
+       "y": 2106,
+       "width": 40,
+       "height": 25
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"mcpServers\"",
+      "box": {
+       "x": 656,
+       "y": 2192,
+       "width": 75,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ": {",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"uiycs\"",
+      "box": {
+       "x": 669,
+       "y": 2215,
+       "width": 44,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ": {",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"command\"",
+      "box": {
+       "x": 681,
+       "y": 2238,
+       "width": 57,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"python\"",
+      "box": {
+       "x": 750,
+       "y": 2238,
+       "width": 50,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"args\"",
+      "box": {
+       "x": 681,
+       "y": 2261,
+       "width": 38,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ": [",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"/path/to/uiycs/mcp_server.py\"",
+      "box": {
+       "x": 738,
+       "y": 2261,
+       "width": 189,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "],",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"env\"",
+      "box": {
+       "x": 681,
+       "y": 2285,
+       "width": 31,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": ": {",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"UIYCS_HOME\"",
+      "box": {
+       "x": 738,
+       "y": 2285,
+       "width": 75,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "\"/path/to/uiycs\"",
+      "box": {
+       "x": 826,
+       "y": 2285,
+       "width": 101,
+       "height": 14
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "} } } }",
+      "box": {
+       "x": 643,
+       "y": 2169,
+       "width": 296,
+       "height": 199
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "uiycs — MIT。随附的字体、图标与动效保留各自的许可。",
+      "box": {
+       "x": 80,
+       "y": 2637,
+       "width": 331,
+       "height": 55
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "本页面由",
+      "box": {
+       "x": 80,
+       "y": 2667,
+       "width": 328,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "uiycs-ui",
+      "box": {
+       "x": 133,
+       "y": 2671,
+       "width": 62,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "skill 一次生成 · 第一版 33 KB / ≈30 秒",
+      "box": {
+       "x": 80,
+       "y": 2667,
+       "width": 328,
+       "height": 24
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "仓库",
+      "box": {
+       "x": 1063,
+       "y": 2641,
+       "width": 26,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "数据源",
+      "box": {
+       "x": 1096,
+       "y": 2641,
+       "width": 39,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     },
+     {
+      "text": "MCP 参考",
+      "box": {
+       "x": 1141,
+       "y": 2641,
+       "width": 59,
+       "height": 16
+      },
+      "confidence": 1.0,
+      "source": "dom"
+     }
+    ],
+    "imageUrl": "media/uiycs-site/section-04.webp",
+    "width": 1280,
+    "height": 800,
+    "scrollY": 1945
+   }
+  ]
  },
  "typography": [
   {
@@ -167,13 +2104,39 @@
   "ui-monospace"
  ],
  "componentNames": [
-  "nav",
-  "main",
-  "footer",
-  "先看见真的，再动手。",
-  "三个工具，一棵目录树。",
-  "从公开源头构建，逐个文件核验。",
-  "两个文件，一个环境变量。"
+  "一个 agent 被要求\"把这个界面做得像个真产品\"时，通常是自己发明一套设计语汇，而不是去看一套。",
+  "从公开源头构建，",
+  ": {",
+  ": {",
+  "Navigation",
+  "Media",
+  "Link grid",
+  "Footer",
+  "Cards"
  ],
- "summary": "7 named regions, 6 palette roles"
+ "patterns": [
+  "Navigation",
+  "Media",
+  "Link grid",
+  "Footer",
+  "Cards"
+ ],
+ "geometry": {
+  "headingWidth": 556,
+  "headingBox": {
+   "width": 556,
+   "height": 129,
+   "x": 80
+  },
+  "buttonShape": "99px",
+  "buttonBox": {
+   "width": 131,
+   "height": 46,
+   "x": 80
+  },
+  "contentWidth": 1280,
+  "viewportWidth": 1280,
+  "containerMaxWidth": "none"
+ },
+ "summary": "4 sections · 126 text nodes · 5 patterns"
 }

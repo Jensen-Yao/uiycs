@@ -1,8 +1,24 @@
-# uiycs
+<div align="center">
 
-**Local UI reference and design-material infrastructure for coding agents.**
+<img src="docs/assets/preview.webp" width="880" alt="uiycs landing page">
 
-<sub>[Live site](https://jensen-yao.github.io/uiycs/) · [中文](README.md) · English</sub>
+<h1>uiycs</h1>
+
+<p><b>Local UI reference and design-material infrastructure for coding agents</b></p>
+
+<p>
+<a href="https://jensen-yao.github.io/uiycs/"><img src="https://img.shields.io/badge/live-site-D97757?style=for-the-badge" alt="live site"></a>
+<a href="README.md"><img src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-141413?style=for-the-badge" alt="中文"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-5C5A54?style=for-the-badge" alt="MIT"></a>
+<a href="#the-three-tools"><img src="https://img.shields.io/badge/MCP-3_tools-8C8880?style=for-the-badge" alt="3 tools"></a>
+</p>
+
+<p><sub>This page was drafted by the <code>uiycs-ui</code> skill in one pass — first HTML landed in <b>~30s</b> at 33 KB</sub></p>
+
+</div>
+
+---
+
 
 `uiycs` gives an agent three things it normally does not have: real product screens to
 reason from, a licensed font catalogue, and a searchable icon/animation library — all

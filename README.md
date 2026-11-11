@@ -1,8 +1,24 @@
-# uiycs
+<div align="center">
 
-**给 coding agent 用的本地 UI 参考与设计素材基础设施。**
+<img src="docs/assets/preview.webp" width="880" alt="uiycs 落地页预览">
 
-<sub>[在线预览](https://jensen-yao.github.io/uiycs/) · [English](README.en.md)</sub>
+<h1>uiycs</h1>
+
+<p><b>给 coding agent 用的本地 UI 参考与设计素材基础设施</b></p>
+
+<p>
+<a href="https://jensen-yao.github.io/uiycs/"><img src="https://img.shields.io/badge/live-site-D97757?style=for-the-badge" alt="live site"></a>
+<a href="README.en.md"><img src="https://img.shields.io/badge/lang-English-141413?style=for-the-badge" alt="English"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-5C5A54?style=for-the-badge" alt="MIT"></a>
+<a href="#三个工具"><img src="https://img.shields.io/badge/MCP-3_tools-8C8880?style=for-the-badge" alt="3 tools"></a>
+</p>
+
+<p><sub>本页面由 <code>uiycs-ui</code> skill 一次生成 —— 第一版 HTML 约 <b>30 秒</b>落盘，33 KB</sub></p>
+
+</div>
+
+---
+
 
 `uiycs` 给 agent 三样它通常没有的东西：可以推理的真实产品界面、带许可的字体目录、可搜索的图标与动效库。全部从本地磁盘提供，一个 MCP server 统一出口。不注册、不要 token、查询时不联网。
 

@@ -9,30 +9,49 @@ ROOT = os.environ.get('UIYCS_HOME') or (
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 IDX_PATH = os.path.join(ROOT, 'index', 'index.json')
+if not os.path.exists(IDX_PATH):
+    sys.stderr.write(
+        f'[uiycs] no pack index at {IDX_PATH}\n'
+        f'        build one:   python tools/build_pack_index.py\n'
+        f'        or start from the demos:\n'
+        f'                     cp -r examples/demo-packs/packs/* packs/\n'
+        f'                     cp -r examples/demo-packs/media/* media/\n')
+    sys.exit(1)
 IDX = json.load(open(IDX_PATH, encoding='utf-8'))
 ITEMS = IDX['items']
 
 _FONTS = _ICONS = _LOTTIE = None
 
 
+def _load_json(rel, hint):
+    """Load a derived index, or fail with the command that builds it."""
+    path = os.path.join(ROOT, rel)
+    if not os.path.exists(path):
+        raise FileNotFoundError(
+            f'{rel} is missing — run: python tools/{hint}')
+    with open(path, encoding='utf-8') as f:
+        return json.load(f)
+
+
 def fonts_index():
     global _FONTS
     if _FONTS is None:
-        _FONTS = json.load(open(os.path.join(ROOT, 'fonts', 'INDEX.json'), encoding='utf-8'))
+        _FONTS = _load_json(os.path.join('fonts', 'INDEX.json'), 'build_fonts_index.py')
     return _FONTS
 
 
 def icons_index():
     global _ICONS
     if _ICONS is None:
-        _ICONS = json.load(open(os.path.join(ROOT, 'icons', 'INDEX.json'), encoding='utf-8'))
+        _ICONS = _load_json(os.path.join('icons', 'INDEX.json'), 'build_icons_index.py')
     return _ICONS
 
 
 def lottie_index():
     global _LOTTIE
     if _LOTTIE is None:
-        _LOTTIE = json.load(open(os.path.join(ROOT, 'animated-icons', 'MANIFEST.json'), encoding='utf-8'))
+        _LOTTIE = _load_json(os.path.join('animated-icons', 'MANIFEST.json'),
+                             'harvest_lottiefiles.py  +  collect_lottie.py')
     return _LOTTIE
 
 

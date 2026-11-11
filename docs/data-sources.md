@@ -41,10 +41,12 @@ media/<slug>/icon.webp     product icon
 The OCR text and the pattern labels are what make search work on content ("cancellation
 policy", "tab bar") rather than only on names.
 
-**Collection is out of scope for this repository.** The collectors here build indexes and
-materials. Pack capture follows whatever your capture pipeline produces, as long as it
-matches the schema above — `tools/build_pack_index.py` only needs `packs/`, `media/` and
-`index/previews.json`.
+**Capture is a first-class tool.** `tools/capture_site.py` drives Chromium through
+Playwright, extracts palette and typography from computed style, writes the screenshots
+as webp, and emits this exact layout. Three worked examples live in
+[`examples/demo-packs/`](../examples/README.md). `tools/build_pack_index.py` reads only
+`packs/` and `media/` — legacy `index/previews.json` / `rename_map.json` are merged when
+present but are no longer required.
 
 **Rights.** A pack is a capture of a third-party product made for design study. It is not
 a license to reuse that product's branding, logotype, copy or imagery. See the note in

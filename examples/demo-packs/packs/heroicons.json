@@ -1,0 +1,177 @@
+{
+ "name": "Heroicons",
+ "slug": "heroicons",
+ "platform": "web",
+ "tagline": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
+ "theme": "Open-source icon library",
+ "site": "https://heroicons.com/",
+ "capturedAt": "2026-11-11T07:09:52.046138+00:00",
+ "colors": [
+  {
+   "hex": "#0F172A",
+   "role": "Text"
+  },
+  {
+   "hex": "#000000",
+   "role": "Text"
+  },
+  {
+   "hex": "#64748B",
+   "role": "Text"
+  },
+  {
+   "hex": "#F1F5F9",
+   "role": "Surface"
+  },
+  {
+   "hex": "#F8FAFC",
+   "role": "Surface"
+  },
+  {
+   "hex": "#FFFFFF",
+   "role": "Surface"
+  }
+ ],
+ "inspector": {
+  "version": 1,
+  "source": "computed-style",
+  "palette": [
+   {
+    "hex": "#0F172A",
+    "role": "Text"
+   },
+   {
+    "hex": "#000000",
+    "role": "Text"
+   },
+   {
+    "hex": "#64748B",
+    "role": "Text"
+   },
+   {
+    "hex": "#F1F5F9",
+    "role": "Surface"
+   },
+   {
+    "hex": "#F8FAFC",
+    "role": "Surface"
+   },
+   {
+    "hex": "#FFFFFF",
+    "role": "Surface"
+   }
+  ],
+  "typography": [
+   {
+    "role": "Heading",
+    "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": 36,
+    "weight": 800,
+    "lineHeight": 40,
+    "letterSpacing": -0.9
+   },
+   {
+    "role": "Subheading",
+    "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": 16,
+    "weight": 400,
+    "lineHeight": 24,
+    "letterSpacing": null
+   },
+   {
+    "role": "Body",
+    "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": 13,
+    "weight": 400,
+    "lineHeight": 24,
+    "letterSpacing": null
+   },
+   {
+    "role": "Button",
+    "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": 12,
+    "weight": 600,
+    "lineHeight": 16,
+    "letterSpacing": null
+   },
+   {
+    "role": "Nav",
+    "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "size": 13,
+    "weight": 600,
+    "lineHeight": 24,
+    "letterSpacing": null
+   }
+  ],
+  "views": [
+   {
+    "label": "Desktop",
+    "url": "media/heroicons/poster.webp",
+    "width": 1280,
+    "height": 800
+   },
+   {
+    "label": "Mobile",
+    "url": "media/heroicons/mobile.webp",
+    "width": 390,
+    "height": 844
+   }
+  ],
+  "geometry": {}
+ },
+ "typography": [
+  {
+   "role": "Heading",
+   "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "size": 36,
+   "weight": 800,
+   "lineHeight": 40,
+   "letterSpacing": -0.9
+  },
+  {
+   "role": "Subheading",
+   "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "size": 16,
+   "weight": 400,
+   "lineHeight": 24,
+   "letterSpacing": null
+  },
+  {
+   "role": "Body",
+   "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "size": 13,
+   "weight": 400,
+   "lineHeight": 24,
+   "letterSpacing": null
+  },
+  {
+   "role": "Button",
+   "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "size": 12,
+   "weight": 600,
+   "lineHeight": 16,
+   "letterSpacing": null
+  },
+  {
+   "role": "Nav",
+   "family": "\"Inter var\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "size": 13,
+   "weight": 600,
+   "lineHeight": 24,
+   "letterSpacing": null
+  }
+ ],
+ "fontFamilies": [
+  "Inter var"
+ ],
+ "componentNames": [
+  "header",
+  "main",
+  "footer",
+  "Outline",
+  "Solid",
+  "Mini",
+  "Micro"
+ ],
+ "summary": "7 named regions, 6 palette roles"
+}

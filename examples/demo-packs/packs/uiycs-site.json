@@ -1,0 +1,179 @@
+{
+ "name": "uiycs landing",
+ "slug": "uiycs-site",
+ "platform": "web",
+ "tagline": "本地 UI 参考与设计素材库：685 个真实产品、217 个字体族、6,307 个图标名、750 段动效，经 MCP 提供，查询时完全离线。",
+ "theme": "Landing page",
+ "site": "https://jensen-yao.github.io/uiycs/",
+ "capturedAt": "2026-11-11T07:07:33.488974+00:00",
+ "colors": [
+  {
+   "hex": "#141413",
+   "role": "Text"
+  },
+  {
+   "hex": "#5C5A54",
+   "role": "Text"
+  },
+  {
+   "hex": "#8C8880",
+   "role": "Text"
+  },
+  {
+   "hex": "#FAF9F5",
+   "role": "Surface"
+  },
+  {
+   "hex": "#D97757",
+   "role": "Text"
+  },
+  {
+   "hex": "#E9E6DC",
+   "role": "Surface"
+  }
+ ],
+ "inspector": {
+  "version": 1,
+  "source": "computed-style",
+  "palette": [
+   {
+    "hex": "#141413",
+    "role": "Text"
+   },
+   {
+    "hex": "#5C5A54",
+    "role": "Text"
+   },
+   {
+    "hex": "#8C8880",
+    "role": "Text"
+   },
+   {
+    "hex": "#FAF9F5",
+    "role": "Surface"
+   },
+   {
+    "hex": "#D97757",
+    "role": "Text"
+   },
+   {
+    "hex": "#E9E6DC",
+    "role": "Surface"
+   }
+  ],
+  "typography": [
+   {
+    "role": "Heading",
+    "family": "Sentient, \"uiycs Serif SC\", \"Noto Serif SC\", \"Source Han Serif SC\", \"Songti SC\", STSong, Georgia, \"Times New Roman\", serif",
+    "size": 52,
+    "weight": 400,
+    "lineHeight": 64.48,
+    "letterSpacing": -0.52
+   },
+   {
+    "role": "Subheading",
+    "family": "Sentient, \"uiycs Serif SC\", \"Noto Serif SC\", \"Source Han Serif SC\", \"Songti SC\", STSong, Georgia, \"Times New Roman\", serif",
+    "size": 35,
+    "weight": 400,
+    "lineHeight": 46.2,
+    "letterSpacing": -0.17
+   },
+   {
+    "role": "Body",
+    "family": "\"Instrument Sans\", \"uiycs Sans SC\", \"Noto Sans SC\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+    "size": 17.5,
+    "weight": 400,
+    "lineHeight": 32.38,
+    "letterSpacing": null
+   },
+   {
+    "role": "Button",
+    "family": "\"Instrument Sans\", \"uiycs Sans SC\", \"Noto Sans SC\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+    "size": 15,
+    "weight": 500,
+    "lineHeight": 25.5,
+    "letterSpacing": null
+   },
+   {
+    "role": "Nav",
+    "family": "\"Instrument Sans\", \"uiycs Sans SC\", \"Noto Sans SC\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+    "size": 16,
+    "weight": 700,
+    "lineHeight": 27.2,
+    "letterSpacing": -0.16
+   }
+  ],
+  "views": [
+   {
+    "label": "Desktop",
+    "url": "media/uiycs-site/poster.webp",
+    "width": 1280,
+    "height": 800
+   },
+   {
+    "label": "Mobile",
+    "url": "media/uiycs-site/mobile.webp",
+    "width": 390,
+    "height": 844
+   }
+  ],
+  "geometry": {}
+ },
+ "typography": [
+  {
+   "role": "Heading",
+   "family": "Sentient, \"uiycs Serif SC\", \"Noto Serif SC\", \"Source Han Serif SC\", \"Songti SC\", STSong, Georgia, \"Times New Roman\", serif",
+   "size": 52,
+   "weight": 400,
+   "lineHeight": 64.48,
+   "letterSpacing": -0.52
+  },
+  {
+   "role": "Subheading",
+   "family": "Sentient, \"uiycs Serif SC\", \"Noto Serif SC\", \"Source Han Serif SC\", \"Songti SC\", STSong, Georgia, \"Times New Roman\", serif",
+   "size": 35,
+   "weight": 400,
+   "lineHeight": 46.2,
+   "letterSpacing": -0.17
+  },
+  {
+   "role": "Body",
+   "family": "\"Instrument Sans\", \"uiycs Sans SC\", \"Noto Sans SC\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+   "size": 17.5,
+   "weight": 400,
+   "lineHeight": 32.38,
+   "letterSpacing": null
+  },
+  {
+   "role": "Button",
+   "family": "\"Instrument Sans\", \"uiycs Sans SC\", \"Noto Sans SC\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+   "size": 15,
+   "weight": 500,
+   "lineHeight": 25.5,
+   "letterSpacing": null
+  },
+  {
+   "role": "Nav",
+   "family": "\"Instrument Sans\", \"uiycs Sans SC\", \"Noto Sans SC\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+   "size": 16,
+   "weight": 700,
+   "lineHeight": 27.2,
+   "letterSpacing": -0.16
+  }
+ ],
+ "fontFamilies": [
+  "Instrument Sans",
+  "Sentient",
+  "ui-monospace"
+ ],
+ "componentNames": [
+  "nav",
+  "main",
+  "footer",
+  "先看见真的，再动手。",
+  "三个工具，一棵目录树。",
+  "从公开源头构建，逐个文件核验。",
+  "两个文件，一个环境变量。"
+ ],
+ "summary": "7 named regions, 6 palette roles"
+}

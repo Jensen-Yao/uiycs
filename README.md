@@ -27,7 +27,7 @@
 217 个字体族        6,307 个图标名      750 个 Lottie 动画
 ```
 
-数据很大（8.4 GB），所以本仓库只发布**引擎、schema、清单和采集脚本**，不发布数据本身。每一个数据文件都能由 `tools/` 里的脚本从公开源重建。
+685 是作者自己维护的库的规模，不是仓库里自带的数据。8.4 GB 的素材不进仓库——字体、图标、动效一条命令就能从公开源重建；**参考包由 `tools/capture_site.py` 采集**，你采多少，库里就有多少。仓库另附 3 个采集好的示例包，装进去就能跑通整条链路。
 
 ---
 
@@ -69,17 +69,28 @@ git clone https://github.com/Jensen-Yao/uiycs.git
 cd uiycs
 export UIYCS_HOME="$PWD"          # 所有脚本和 server 都以它为根
 
+# 素材：从各自的公开源拉
 python tools/collect_google_fonts.py     # 114 个 OFL 字族 → fonts/
 python tools/collect_fontshare.py        # 100 个免费商用字族 → fonts-fontshare/
 python tools/collect_icons.py            # lucide + heroicons + Material Symbols → icons/
 python tools/harvest_lottiefiles.py      # LottieFiles 免费层 → animated-icons/
 python tools/collect_lottie.py           # 精选 CDN 动画 → animated-icons/
+
+# 参考包：装仓库自带的 3 个 demo，或用采集器自己建
+cp -r examples/demo-packs/packs/* packs/
+cp -r examples/demo-packs/media/* media/
+# pip install playwright pillow && python -m playwright install chromium
+python tools/capture_site.py https://your-product.com --name "Your Product"
+
+# 建索引
 python tools/build_fonts_index.py        # fonts/INDEX.json
 python tools/build_icons_index.py        # icons/INDEX.json
 python tools/build_pack_index.py         # index/index.json
 ```
 
-参考包（`packs/`、`media/`）的目录规范见 [docs/data-sources.md](docs/data-sources.md)。它们由独立管线采集，索引构建器接受任何符合该 schema 的目录。
+参考包的目录规范见 [docs/data-sources.md](docs/data-sources.md)，示例见
+[examples/](examples/README.md)。采集器输出与规范一致，索引构建器接受任何符合该
+schema 的目录——你也可以手工放一批图进去。
 
 ### 2. 注册 MCP server
 
@@ -170,7 +181,7 @@ skill 是一套工作流，不是依赖。它告诉 agent 什么时候该去找�
 
 | 层 | 来源 | 许可 |
 |---|---|---|
-| 参考包 | 公开的产品界面采集集合（web + iOS），685 个应用 | 见单包记录 |
+| 参考包 | 你自己用 `tools/capture_site.py` 采集的界面；仓库自带 3 个 demo | 采到的界面归其所有者，仅作设计参考 |
 | 网页字体 | [Google Fonts](https://fonts.google.com)，走 CSS2 API | OFL / Apache / 按字族 |
 | 免费商用字体 | [Fontshare](https://www.fontshare.com) CSS API | ITF Free Font License / OFL |
 | 中文字体 | Noto Sans SC、Noto Serif SC（可变）、霞鹜文楷 | OFL |
@@ -191,7 +202,11 @@ uiycs/
 │       ├── SKILL.md            以图为准的 UI 工作流
 │       └── references/
 │           └── workflow.md     六步流程
+├── examples/
+│   ├── demo-packs/              3 个采集好的包（packs + media，681 KB）
+│   └── README.md                装法 / 采集器用法 / schema 实例
 ├── tools/
+│   ├── capture_site.py          把任意 URL 采成一个参考包（Playwright）
 │   ├── collect_google_fonts.py
 │   ├── collect_fontshare.py
 │   ├── collect_icons.py

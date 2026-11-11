@@ -30,9 +30,11 @@ time.
 217 font families     6,307 icon names         750 Lottie animations
 ```
 
-The data is large (8.4 GB), so this repository ships the **engine, the schemas, the
-manifests and the collectors** — not the payloads. Every payload is rebuilt from a public
-source by the scripts in `tools/`.
+685 is the size of the library the author maintains, not data bundled in this repository.
+The 8.4 GB of payload stays out: fonts, icons and animations rebuild from their public
+sources with one command each, and **reference packs come from `tools/capture_site.py`** —
+you get as many as you capture. Three captured examples ship in `examples/` so the whole
+chain runs out of the box.
 
 ---
 
@@ -80,19 +82,28 @@ git clone https://github.com/Jensen-Yao/uiycs.git
 cd uiycs
 export UIYCS_HOME="$PWD"          # all scripts and the server resolve here
 
+# materials: each from its own public source
 python tools/collect_google_fonts.py     # 114 OFL families → fonts/
 python tools/collect_fontshare.py        # 100 commercial-free families → fonts-fontshare/
 python tools/collect_icons.py            # lucide + heroicons + Material Symbols → icons/
 python tools/harvest_lottiefiles.py      # free-tier Lottie animations → animated-icons/
 python tools/collect_lottie.py           # curated CDN animations → animated-icons/
+
+# reference packs: install the 3 bundled demos, or capture your own
+cp -r examples/demo-packs/packs/* packs/
+cp -r examples/demo-packs/media/* media/
+# pip install playwright pillow && python -m playwright install chromium
+python tools/capture_site.py https://your-product.com --name "Your Product"
+
+# indexes
 python tools/build_fonts_index.py        # fonts/INDEX.json
 python tools/build_icons_index.py        # icons/INDEX.json
 python tools/build_pack_index.py         # index/index.json
 ```
 
-Reference packs (`packs/`, `media/`) follow the layout in
-[docs/data-sources.md](docs/data-sources.md). They are captured independently; the index
-builder accepts any directory that matches the schema.
+The pack layout is in [docs/data-sources.md](docs/data-sources.md); worked examples in
+[examples/](examples/README.md). The collector emits that layout, and the index builder
+accepts any directory that matches it — hand-placed captures work too.
 
 ### 2. Register the MCP server
 
@@ -188,7 +199,7 @@ Full detail, sizes and collector behaviour: [docs/data-sources.md](docs/data-sou
 
 | Layer | Source | License |
 |---|---|---|
-| Reference packs | public product-interface capture collections (web + iOS), 685 apps | see per-pack record |
+| Reference packs | whatever you capture with `tools/capture_site.py`; 3 demos bundled | captured interfaces belong to their owners — design reference only |
 | Web fonts | [Google Fonts](https://fonts.google.com) via the CSS2 API | OFL / Apache / per-family |
 | Commercial-free fonts | [Fontshare](https://www.fontshare.com) CSS API | ITF Free Font License / OFL |
 | CJK fonts | Noto Sans SC, Noto Serif SC (variable), LXGW WenKai | OFL |
@@ -210,7 +221,11 @@ uiycs/
 │       ├── SKILL.md            image-first UI workflow
 │       └── references/
 │           └── workflow.md     the six-step procedure
+├── examples/
+│   ├── demo-packs/              3 captured packs (packs + media, 681 KB)
+│   └── README.md                install / capture usage / schema sample
 ├── tools/
+│   ├── capture_site.py          turn any URL into a reference pack (Playwright)
 │   ├── collect_google_fonts.py
 │   ├── collect_fontshare.py
 │   ├── collect_icons.py

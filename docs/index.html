@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>uiycs — 给 coding agent 的真实 UI 参考</title>
+<meta name="description" content="本地 UI 参考与设计素材库：685 个真实产品、217 个字体族、6,307 个图标名、750 段动效，经 MCP 提供，查询时完全离线。">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23D97757'/><path d='M9 22V10h2.6v9.4H9zm5.2 0V10h2.6v9.4h-2.6zm5.1 0V10H22c1.8 0 2.9 1 2.9 2.6 0 1.2-.7 2-1.7 2.3 1.2.3 2 1.2 2 2.5 0 1.8-1.3 2.9-3.3 2.9h-4.6z' fill='%23FAF9F5'/></svg>">
+<style>
+@font-face{font-family:"Sentient";src:url("assets/fonts/sentient-400.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Sentient";src:url("assets/fonts/sentient-400i.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Sentient";src:url("assets/fonts/sentient-500.woff2") format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url("assets/fonts/instrument-400.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url("assets/fonts/instrument-700.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"uiycs Serif SC";src:url("assets/fonts/noto-serif-sc-subset.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"uiycs Sans SC";src:url("assets/fonts/noto-sans-sc-subset.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"uiycs Sans SC";src:url("assets/fonts/noto-sans-sc-subset.woff2") format("woff2");font-weight:700;font-display:swap}
+
+:root{
+  --bg:#F0EEE6;
+  --bg-2:#E9E6DC;
+  --surface:#FAF9F5;
+  --surface-2:#FFFFFF;
+  --ink:#141413;
+  --ink-2:#5C5A54;
+  --ink-3:#8C8880;
+  --line:#E3DFD4;
+  --line-2:#D2CDBE;
+  --accent:#D97757;
+  --accent-ink:#B4573A;
+  --accent-soft:#F3E3DA;
+  --serif:"Sentient","uiycs Serif SC","Noto Serif SC","Source Han Serif SC","Songti SC",STSong,Georgia,"Times New Roman",serif;
+  --sans:"Instrument Sans","uiycs Sans SC","Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+  --r:14px;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.7;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(900px 500px at 15% -5%, rgba(217,119,87,.10), transparent 60%),
+    radial-gradient(700px 420px at 88% 8%, rgba(140,136,128,.10), transparent 65%);
+}
+a{color:inherit;text-decoration:none}
+code,kbd{font-family:var(--mono);font-size:.88em}
+::selection{background:var(--accent-soft);color:var(--accent-ink)}
+
+.wrap{width:min(1120px,calc(100% - 48px));margin:0 auto;position:relative;z-index:1}
+@media(max-width:640px){.wrap{width:calc(100% - 32px)}}
+
+/* ---------- nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;
+  backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);
+  background:color-mix(in srgb,var(--bg) 78%,transparent);
+  border-bottom:1px solid transparent;transition:border-color .3s,background .3s;
+}
+.nav.stuck{border-bottom-color:var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em;font-family:var(--sans)}
+.brand svg{width:22px;height:22px}
+.nav-links{display:flex;gap:26px;font-size:14.5px;color:var(--ink-2)}
+.nav-links a{transition:color .2s}
+.nav-links a:hover{color:var(--ink)}
+.nav-cta{
+  display:inline-flex;align-items:center;gap:7px;height:36px;padding:0 15px;
+  border:1px solid var(--line-2);border-radius:99px;background:var(--surface);
+  font-size:14px;font-weight:500;transition:all .25s var(--ease);
+}
+.nav-cta:hover{background:var(--surface-2);border-color:var(--ink-3);transform:translateY(-1px)}
+@media(max-width:860px){.nav-links{display:none}}
+
+/* ---------- hero ---------- */
+.hero{padding:84px 0 76px}
+@media(max-width:640px){.hero{padding:52px 0 44px}}
+.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:50px;align-items:center;margin-bottom:54px}
+@media(max-width:940px){.hero-grid{grid-template-columns:1fr;gap:40px}}
+.hero-copy{min-width:0}
+
+/* stacked reference shots */
+.hero-visual{position:relative}
+.stack{position:relative;aspect-ratio:1/.86;perspective:1200px}
+.shot{
+  position:absolute;border-radius:12px;overflow:hidden;
+  border:1px solid var(--line-2);background:var(--surface);
+  box-shadow:0 18px 40px -26px rgba(20,20,19,.45),0 2px 6px rgba(20,20,19,.05);
+  transition:transform .8s var(--ease),box-shadow .6s var(--ease);
+  will-change:transform;
+}
+.shot img{display:block;width:100%;height:auto}
+.shot::after{
+  content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);
+}
+.s-a{left:19%;right:19%;top:7%;z-index:3;transform:rotate(-1.2deg)}
+.s-b{left:-3%;top:-1%;width:44%;z-index:2;transform:rotate(-8deg)}
+.s-c{right:-3%;top:27%;width:27%;z-index:1;transform:rotate(7deg)}
+.stack:hover .s-a{transform:rotate(0deg) translateY(-5px)}
+.stack:hover .s-b{transform:rotate(-11deg) translate(-14px,-8px)}
+.stack:hover .s-c{transform:rotate(10deg) translate(14px,8px)}
+@media(prefers-reduced-motion:no-preference){
+  .s-a{animation:float 9s ease-in-out infinite}
+  .s-b{animation:float 11s ease-in-out infinite .6s}
+  .s-c{animation:float 13s ease-in-out infinite 1.2s}
+  @keyframes float{0%,100%{translate:0 0}50%{translate:0 -9px}}
+}
+.shot-cap{
+  text-align:center;font-size:12px;color:var(--ink-3);letter-spacing:.02em;margin-top:14px;
+}
+.shot-cap b{color:var(--ink-2);font-weight:500}
+@media(max-width:940px){.stack{max-width:440px;margin:0 auto}}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  padding:6px 13px 6px 11px;border:1px solid var(--line-2);border-radius:99px;
+  background:var(--surface);font-size:12.5px;letter-spacing:.02em;color:var(--ink-2);
+  margin-bottom:28px;
+}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+h1{
+  font-family:var(--serif);font-weight:400;font-size:clamp(34px,4.2vw,52px);
+  line-height:1.24;letter-spacing:-.01em;margin:0 0 22px;max-width:13em;
+}
+h1 em{font-style:normal;color:var(--accent-ink)}
+.lede{font-size:clamp(15.5px,1.5vw,17.5px);line-height:1.85;color:var(--ink-2);max-width:30em;margin:0 0 34px}
+.lede strong{color:var(--ink);font-weight:700}
+
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:60px}
+.btn{
+  display:inline-flex;align-items:center;gap:9px;height:46px;padding:0 22px;
+  border-radius:99px;font-size:15px;font-weight:500;border:1px solid transparent;
+  transition:all .3s var(--ease);cursor:pointer;
+}
+.btn-primary{background:var(--ink);color:var(--bg);box-shadow:0 1px 2px rgba(20,20,19,.14)}
+.btn-primary:hover{background:#2A2A27;transform:translateY(-2px);box-shadow:0 10px 24px -12px rgba(20,20,19,.5)}
+.btn-ghost{background:var(--surface);border-color:var(--line-2);color:var(--ink)}
+.btn-ghost:hover{background:var(--surface-2);border-color:var(--ink-3);transform:translateY(-2px)}
+.btn svg{width:16px;height:16px;opacity:.85}
+
+/* stat strip */
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+}
+@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--surface);padding:22px 20px 20px}
+.stat .n{font-family:var(--serif);font-size:clamp(26px,3.2vw,36px);line-height:1;letter-spacing:-.01em;display:block}
+.stat .l{font-size:12.5px;color:var(--ink-3);letter-spacing:.06em;margin-top:10px;display:block}
+
+/* ---------- section ---------- */
+section{position:relative;z-index:1}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:24px;margin-bottom:34px;flex-wrap:wrap}
+.sec-kicker{font-size:12.5px;letter-spacing:.12em;color:var(--ink-3);margin:0 0 12px}
+h2{font-family:var(--serif);font-weight:400;font-size:clamp(25px,3.1vw,35px);line-height:1.32;letter-spacing:-.005em;margin:0}
+.sec-note{font-size:14px;line-height:1.8;color:var(--ink-3);max-width:24em;margin:0}
+
+/* ---------- tool cards ---------- */
+.tools{padding:24px 0 92px}
+.tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:stretch}
+@media(max-width:900px){.tool-grid{grid-template-columns:1fr}}
+
+.card{
+  position:relative;border-radius:var(--r);border:1px solid var(--line);
+  background:var(--surface);padding:26px 24px 24px;overflow:hidden;
+  transition:transform .55s var(--ease),border-color .35s,box-shadow .55s var(--ease);
+  transform-style:preserve-3d;will-change:transform;
+}
+.card::before{
+  content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:radial-gradient(340px circle at var(--mx,50%) var(--my,0%),rgba(217,119,87,.13),transparent 62%);
+  opacity:0;transition:opacity .45s;
+}
+.card:hover{border-color:var(--line-2);box-shadow:0 22px 48px -30px rgba(20,20,19,.42)}
+.card:hover::before{opacity:1}
+.card>.inner{position:relative;transform:translateZ(28px);transform-style:preserve-3d;display:flex;flex-direction:column;height:100%}
+.card-ico{
+  width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+  background:var(--accent-soft);color:var(--accent-ink);margin-bottom:18px;
+  transition:transform .5s var(--ease),background .3s;
+}
+.card:hover .card-ico{transform:translateZ(18px) scale(1.06);background:#EFD9CD}
+.card-ico svg{width:19px;height:19px}
+.card h3{font-family:var(--mono);font-size:14px;font-weight:700;letter-spacing:-.01em;margin:0 0 10px}
+.card p{font-size:14px;line-height:1.78;color:var(--ink-2);margin:0 0 16px}
+.card ul{list-style:none;padding:0;margin:auto 0 0;display:flex;flex-direction:column;gap:7px}
+.card li{font-size:13px;color:var(--ink-2);display:flex;gap:9px;align-items:flex-start;line-height:1.6}
+.card li b{color:var(--ink);font-weight:500;font-family:var(--mono);font-size:12px;background:var(--bg-2);padding:1px 6px;border-radius:5px;white-space:nowrap}
+.card li svg{width:13px;height:13px;flex:none;margin-top:4px;color:var(--accent)}
+
+/* ---------- source matrix ---------- */
+.sources{padding:0 0 92px}
+.matrix{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+@media(max-width:980px){.matrix{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.matrix{grid-template-columns:1fr}}
+.mx{background:var(--surface);padding:22px 20px;transition:background .3s}
+.mx:hover{background:var(--surface-2)}
+.mx .k{font-size:11.5px;letter-spacing:.1em;color:var(--ink-3);margin-bottom:10px}
+.mx .v{font-family:var(--serif);font-size:21px;letter-spacing:-.005em;line-height:1.3;margin-bottom:7px}
+.mx .s{font-size:12.5px;color:var(--ink-3);line-height:1.6}
+.mx .s code{background:var(--bg-2);padding:1px 5px;border-radius:4px;font-size:11.5px;color:var(--ink-2)}
+
+/* ---------- quickstart ---------- */
+.start{padding:0 0 92px}
+.split{display:grid;grid-template-columns:1fr 1.15fr;gap:44px;align-items:start}
+@media(max-width:900px){.split{grid-template-columns:1fr;gap:28px}}
+.steps{list-style:none;padding:0;margin:0;counter-reset:s}
+.steps li{
+  counter-increment:s;position:relative;padding:0 0 26px 42px;border-left:1px solid var(--line);
+  margin-left:14px;
+}
+.steps li:last-child{padding-bottom:0;border-left-color:transparent}
+.steps li::before{
+  content:counter(s);position:absolute;left:-14px;top:-2px;width:28px;height:28px;border-radius:50%;
+  background:var(--surface);border:1px solid var(--line-2);display:grid;place-items:center;
+  font-size:12.5px;font-weight:700;color:var(--ink-2);font-family:var(--mono);
+}
+.steps h4{font-size:15px;font-weight:700;margin:0 0 7px;letter-spacing:0}
+.steps p{font-size:13.5px;color:var(--ink-2);margin:0;line-height:1.8}
+.steps p+p{margin-top:8px}
+.steps code{background:var(--bg-2);padding:1px 6px;border-radius:5px;font-size:12.5px}
+
+.code{
+  border:1px solid var(--line);border-radius:var(--r);background:var(--surface-2);
+  overflow:hidden;box-shadow:0 20px 44px -34px rgba(20,20,19,.4);
+}
+.code-bar{display:flex;align-items:center;gap:8px;padding:11px 14px;border-bottom:1px solid var(--line);background:var(--surface)}
+.tab{
+  font-size:12.5px;font-family:var(--mono);color:var(--ink-3);padding:4px 9px;border-radius:6px;
+  cursor:pointer;transition:all .2s;border:1px solid transparent;
+}
+.tab.on{background:var(--bg-2);color:var(--ink);border-color:var(--line)}
+.tab:hover:not(.on){color:var(--ink-2)}
+.copy{
+  margin-left:auto;font-size:12px;color:var(--ink-3);background:none;border:none;cursor:pointer;
+  font-family:var(--sans);padding:4px 8px;border-radius:6px;transition:all .2s;
+}
+.copy:hover{background:var(--bg-2);color:var(--ink)}
+.code pre{margin:0;padding:18px;overflow-x:auto;font-size:13px;line-height:1.78;color:var(--ink-2)}
+.code pre[hidden]{display:none}
+.code pre .c{color:#8C8880!important}
+.code pre .k{color:#B4573A!important}
+.code pre .s{color:#3F7A4E!important}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:34px 0 54px;position:relative;z-index:1}
+.foot-in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px;color:var(--ink-3);line-height:1.9}
+.foot-in a{color:var(--ink-2);transition:color .2s}
+.foot-in a:hover{color:var(--ink)}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <rect x="2" y="2" width="20" height="20" rx="6" fill="#D97757"/>
+        <path d="M7.6 16.4V7.6h1.9v8.8H7.6Zm3.9 0V7.6h3.4c1.7 0 2.7 1 2.7 2.4 0 1.1-.6 1.9-1.5 2.2 1.1.2 1.8 1.1 1.8 2.3 0 1.7-1.2 2.7-3.1 2.7h-3.3Z" fill="#FAF9F5"/>
+      </svg>
+      uiycs
+    </a>
+    <div class="nav-links">
+      <a href="#tools">工具</a>
+      <a href="#sources">数据</a>
+      <a href="#start">安装</a>
+      <a href="https://github.com/Jensen-Yao/uiycs">仓库</a>
+    </div>
+    <a class="nav-cta" href="https://github.com/Jensen-Yao/uiycs">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.9 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5Z"/></svg>
+      Star
+    </a>
+  </div>
+</nav>
+
+<main id="top">
+  <div class="wrap hero">
+    <div class="hero-grid">
+    <div class="hero-copy">
+    <div class="eyebrow rv"><span class="dot"></span>模型上下文协议 · stdio · 无需账号</div>
+    <h1 class="rv">先看见<em>真的</em>，<br>再动手。</h1>
+    <p class="lede rv">
+      一个 agent 被要求"把这个界面做得像个真产品"时，通常是自己发明一套设计语汇，而不是去看一套。
+      <strong>uiycs</strong> 给它 685 个真实产品的截屏、真实的排版比例与配色，217 个带许可文件的字体族，
+      6,307 个图标名和 750 段动效——全部从本地磁盘，经一个 MCP server 提供。
+    </p>
+    <div class="cta-row rv">
+      <a class="btn btn-primary" href="#start">
+        开始使用
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn-ghost" href="https://github.com/Jensen-Yao/uiycs">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.9 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5Z"/></svg>
+        查看源码
+      </a>
+    </div>
+    </div>
+
+    <div class="hero-visual rv">
+      <div class="stack">
+        <figure class="shot s-b"><img src="assets/shots/ref-dashboard.webp" alt="采集到的 dashboard 参考" loading="lazy"></figure>
+        <figure class="shot s-c"><img src="assets/shots/ref-ios.webp" alt="采集到的 iOS 参考" loading="lazy"></figure>
+        <figure class="shot s-a"><img src="assets/shots/ref-editorial.webp" alt="采集到的编辑风格参考" loading="lazy"></figure>
+      </div>
+      <div class="shot-cap">685 个采集参考里的三个 — 真实产品，不是模板</div>
+    </div>
+    </div>
+
+    <div class="stats rv">
+      <div class="stat"><span class="n" data-count="685">685</span><span class="l">参考包</span></div>
+      <div class="stat"><span class="n" data-count="217">217</span><span class="l">字体族</span></div>
+      <div class="stat"><span class="n" data-count="6307" data-sep>6,307</span><span class="l">图标名</span></div>
+      <div class="stat"><span class="n" data-count="750">750</span><span class="l">动效</span></div>
+    </div>
+  </div>
+
+  <section class="tools" id="tools">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div>
+          <p class="sec-kicker">服务端</p>
+          <h2>三个工具，一棵目录树。</h2>
+        </div>
+        <p class="sec-note">每个结果都是磁盘上的绝对路径，附带它自己的许可。</p>
+      </div>
+
+      <div class="tool-grid">
+        <article class="card tilt rv">
+          <div class="inner">
+            <div class="card-ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3>find_ui_references</h3>
+            <p>在包元数据和每屏 OCR 文本上做加权检索。返回布局、token 和状态。</p>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> 配色 · 排版 · 几何</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> 每屏 OCR 与交互模式</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> 平台 <b>web</b> <b>ios</b></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card tilt rv">
+          <div class="inner">
+            <div class="card-ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7V5h16v2M9 19h6M12 5v14"/></svg>
+            </div>
+            <h3>find_ui_materials</h3>
+            <p>四个 kind，每一个都是真检索——不是元数据占位。</p>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> <b>font</b> 217 个字体族 + 许可</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> <b>icon</b> 四套，2.7 万 SVG</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> <b>animated_icon</b> 750 段 Lottie</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card tilt rv">
+          <div class="inner">
+            <div class="card-ico">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            </div>
+            <h3>get_pack_detail</h3>
+            <p>一个包，完整记录：每一屏和它的 OCR 文本，每一个采集视图和动效。</p>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> id · slug · 精确名称</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> poster · 整页 · 动效</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 5 5L20 6"/></svg> 亚毫秒级查询</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sources" id="sources">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div>
+          <p class="sec-kicker">数据</p>
+          <h2>从公开源头构建，<br>逐个文件核验。</h2>
+        </div>
+        <p class="sec-note">8.4 GB 数据不进仓库。每一层都由脚本重建，并校验悬空路径。</p>
+      </div>
+
+      <div class="matrix rv">
+        <div class="mx">
+          <div class="k">界面采集</div>
+          <div class="v">4,223 屏</div>
+          <div class="s">685 个产品 · web + iOS · token、组件、OCR。<code>7.8 GB</code></div>
+        </div>
+        <div class="mx">
+          <div class="k">网页字体</div>
+          <div class="v">114 个字体族</div>
+          <div class="s">Google Fonts CSS2 API · woff2 分片 · <code>OFL</code></div>
+        </div>
+        <div class="mx">
+          <div class="k">免费商用</div>
+          <div class="v">100 个字体族</div>
+          <div class="s">Fontshare CSS API · 300–800 + 斜体 · <code>ITF FFL</code></div>
+        </div>
+        <div class="mx">
+          <div class="k">中文字体</div>
+          <div class="v">3 个字体族</div>
+          <div class="s">思源黑/宋可变字体 + 霞鹜文楷 · <code>OFL</code></div>
+        </div>
+        <div class="mx">
+          <div class="k">图标</div>
+          <div class="v">27,278 SVG</div>
+          <div class="s">lucide · heroicons · Material Symbols · <code>ISC/MIT/Apache</code></div>
+        </div>
+        <div class="mx">
+          <div class="k">动效</div>
+          <div class="v">750 段 Lottie</div>
+          <div class="s">免费层 + 社区仓库 · <code>.lottie</code> + <code>.json</code></div>
+        </div>
+        <div class="mx">
+          <div class="k">运行时</div>
+          <div class="v">0 个依赖</div>
+          <div class="s">只用 Python 标准库 · 查询时离线</div>
+        </div>
+        <div class="mx">
+          <div class="k">完整性</div>
+          <div class="v">0 悬空</div>
+          <div class="s">覆盖 31,017 条清单引用</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="start" id="start">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div>
+          <p class="sec-kicker">安装</p>
+          <h2>两个文件，一个环境变量。</h2>
+        </div>
+        <p class="sec-note">不用 pip install。不用 API key。server 只读本地文件，经 stdio 应答。</p>
+      </div>
+
+      <div class="split">
+        <ol class="steps rv">
+          <li>
+            <h4>克隆并构建</h4>
+            <p>采集器按层从各自的公开源拉取，索引构建器随后遍历文件系统。</p>
+            <p><code>python tools/collect_icons.py</code> → 五分钟内拿到 27,278 个 SVG。</p>
+          </li>
+          <li>
+            <h4>指向数据</h4>
+            <p>只有一个变量：<code>UIYCS_HOME</code>。默认取仓库根，从 <code>tools/</code> 里运行时自动上溯一级。</p>
+          </li>
+          <li>
+            <h4>注册 server</h4>
+            <p>任何支持 stdio MCP 的客户端都能接。Claude Code、Cursor、Codex、ZCode、DSH——同样三行配置。</p>
+          </li>
+          <li>
+            <h4>装上 skill</h4>
+            <p><code>cp -r skill/uiycs-ui ~/.agents/skills/</code></p>
+            <p>skill 是一套工作流，不是依赖。没有 server 它会优雅降级。</p>
+          </li>
+        </ol>
+
+        <div class="code rv">
+          <div class="code-bar">
+            <span class="tab on" data-tab="json">.mcp.json</span>
+            <span class="tab" data-tab="toml">config.toml</span>
+            <span class="tab" data-tab="shell">验证</span>
+            <button class="copy" data-copy>复制</button>
+          </div>
+          <pre data-panel="json"><code>{
+  <span style="color:#3F7A4E">"mcpServers"</span>: {
+    <span style="color:#3F7A4E">"uiycs"</span>: {
+      <span style="color:#3F7A4E">"command"</span>: <span style="color:#3F7A4E">"python"</span>,
+      <span style="color:#3F7A4E">"args"</span>: [<span style="color:#3F7A4E">"/path/to/uiycs/mcp_server.py"</span>],
+      <span style="color:#3F7A4E">"env"</span>: { <span style="color:#3F7A4E">"UIYCS_HOME"</span>: <span style="color:#3F7A4E">"/path/to/uiycs"</span> }
+    }
+  }
+}</code></pre>
+          <pre data-panel="toml" hidden><code><span style="color:#8C8880"># ~/.codex/config.toml</span>
+[<span style="color:#B4573A">mcp_servers</span>.uiycs]
+<span style="color:#B4573A">command</span> = <span style="color:#3F7A4E">"python"</span>
+<span style="color:#B4573A">args</span> = [<span style="color:#3F7A4E">"/path/to/uiycs/mcp_server.py"</span>]
+<span style="color:#B4573A">env</span> = { <span style="color:#B4573A">UIYCS_HOME</span> = <span style="color:#3F7A4E">"/path/to/uiycs"</span> }</code></pre>
+          <pre data-panel="shell" hidden><code><span style="color:#8C8880"># server 会应答吗？</span>
+printf <span style="color:#3F7A4E">'%s\n'</span> <span style="color:#3F7A4E">'{"jsonrpc":"2.0","id":1,"method":"initialize","params":{}}'</span> \
+  | UIYCS_HOME=<span style="color:#3F7A4E">/path/to/uiycs</span> python mcp_server.py
+
+<span style="color:#8C8880"># → {"result":{"serverInfo":{"name":"uiycs","version":"2.0.0"}}}</span></code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <span>uiycs — MIT。随附的字体、图标与动效保留各自的许可。</span>
+    <span>
+      <a href="https://github.com/Jensen-Yao/uiycs">仓库</a> ·
+      <a href="https://github.com/Jensen-Yao/uiycs/blob/main/docs/data-sources.md">数据源</a> ·
+      <a href="https://github.com/Jensen-Yao/uiycs/blob/main/docs/mcp-reference.md">MCP 参考</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var nav = document.getElementById("nav");
+  function onScroll(){ nav.classList.toggle("stuck", window.scrollY > 8); }
+  addEventListener("scroll", onScroll, {passive:true}); onScroll();
+
+  var reveal = document.querySelectorAll(".rv");
+  if (reduce || !("IntersectionObserver" in window)) {
+    reveal.forEach(function(el){ el.classList.add("in"); });
+  } else {
+    var groups = new Map();
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (!e.isIntersecting) return;
+        var el = e.target;
+        var parent = el.parentElement;
+        var idx = groups.get(parent) || 0;
+        groups.set(parent, idx + 1);
+        el.style.transitionDelay = Math.min(idx * 70, 350) + "ms";
+        el.classList.add("in");
+        io.unobserve(el);
+      });
+    }, {rootMargin: "0px 0px -12% 0px", threshold: 0.06});
+    reveal.forEach(function(el){ io.observe(el); });
+  }
+
+  function animateCount(el){
+    var target = parseInt(el.dataset.count, 10);
+    if (!target || reduce) return;
+    var sep = el.hasAttribute("data-sep");
+    var t0 = performance.now(), dur = 1100;
+    function tick(t){
+      var p = Math.min((t - t0) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(target * eased);
+      el.textContent = sep ? v.toLocaleString("en-US") : String(v);
+      if (p < 1) requestAnimationFrame(tick);
+      else el.textContent = sep ? target.toLocaleString("en-US") : String(target);
+    }
+    requestAnimationFrame(tick);
+  }
+  var counters = document.querySelectorAll("[data-count]");
+  if ("IntersectionObserver" in window) {
+    var cio = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting) { animateCount(e.target); cio.unobserve(e.target); } });
+    }, {threshold: 0.4});
+    counters.forEach(function(el){ cio.observe(el); });
+  }
+
+  document.querySelectorAll(".tilt").forEach(function(card){
+    var raf = null, curX = 0, curY = 0;
+    function apply(){
+      raf = null;
+      var r = card.getBoundingClientRect();
+      var px = (curX - r.left) / r.width;
+      var py = (curY - r.top) / r.height;
+      card.style.setProperty("--mx", (px * 100).toFixed(1) + "%");
+      card.style.setProperty("--my", (py * 100).toFixed(1) + "%");
+      if (!reduce && r.width > 420) {
+        var rx = (0.5 - py) * 3.2;
+        var ry = (px - 0.5) * 3.2;
+        card.style.transform = "perspective(900px) rotateX(" + rx.toFixed(2) + "deg) rotateY(" + ry.toFixed(2) + "deg) translateY(-4px)";
+      }
+    }
+    card.addEventListener("pointermove", function(e){
+      curX = e.clientX; curY = e.clientY;
+      if (!raf) raf = requestAnimationFrame(apply);
+    });
+    card.addEventListener("pointerleave", function(){
+      card.style.transform = "";
+      card.style.setProperty("--mx", "50%");
+      card.style.setProperty("--my", "0%");
+    });
+  });
+
+  var tabs = document.querySelectorAll(".tab");
+  var panels = document.querySelectorAll("[data-panel]");
+  tabs.forEach(function(tab){
+    tab.addEventListener("click", function(){
+      tabs.forEach(function(t){ t.classList.toggle("on", t === tab); });
+      panels.forEach(function(p){ p.hidden = p.dataset.panel !== tab.dataset.tab; });
+    });
+  });
+
+  var copyBtn = document.querySelector("[data-copy]");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", function(){
+      var panel = document.querySelector("[data-panel]:not([hidden])");
+      if (!panel) return;
+      var text = panel.innerText || panel.textContent;
+      var done = function(){ copyBtn.textContent = "已复制"; setTimeout(function(){ copyBtn.textContent = "复制"; }, 1400); };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, done);
+      } else {
+        var ta = document.createElement("textarea");
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand("copy"); } catch (e) {}
+        document.body.removeChild(ta); done();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>

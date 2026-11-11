@@ -1,0 +1,6 @@
+# uiycs uses the Python standard library only.
+# Nothing to install for the MCP server or any collector.
+#
+# Optional, if you extend the collection pipeline:
+#   requests>=2.31     # only if you prefer it over urllib
+#   pillow>=10.0       # only for image post-processing

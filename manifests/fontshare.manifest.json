@@ -1,0 +1,1601 @@
+{
+ "source": "https://api.fontshare.com/v2/css",
+ "count": 100,
+ "fonts": [
+  {
+   "name": "Kihim",
+   "slug": "kihim",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/kihim/400-4TN7YRXJ3X.woff2"
+   ]
+  },
+  {
+   "name": "Gambetta",
+   "slug": "gambetta",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/gambetta/300-XV7ESZCVQJ.woff2",
+    "fonts-fontshare/gambetta/300i-ILBJATBRNJ.woff2",
+    "fonts-fontshare/gambetta/400-ODDSCHC7OZ.woff2",
+    "fonts-fontshare/gambetta/400i-Z2AWFZWVPY.woff2",
+    "fonts-fontshare/gambetta/500-UMQTMTAEPC.woff2",
+    "fonts-fontshare/gambetta/500i-IFFC5J45KU.woff2",
+    "fonts-fontshare/gambetta/600-6KRVTMHEY2.woff2",
+    "fonts-fontshare/gambetta/600i-YZCQBSKG3E.woff2",
+    "fonts-fontshare/gambetta/700-RMBKFTS6UF.woff2",
+    "fonts-fontshare/gambetta/700i-ON7F73RFEW.woff2"
+   ]
+  },
+  {
+   "name": "Synonym",
+   "slug": "synonym",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/synonym/300-3LQZJYXAXU.woff2",
+    "fonts-fontshare/synonym/400-EMRNL4XMLB.woff2",
+    "fonts-fontshare/synonym/500-DXASCID3BX.woff2",
+    "fonts-fontshare/synonym/600-R55OPPYH4Z.woff2",
+    "fonts-fontshare/synonym/700-LICKIETVGV.woff2"
+   ]
+  },
+  {
+   "name": "Gambarino",
+   "slug": "gambarino",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/gambarino/400-6KBHT5NXCZ.woff2"
+   ]
+  },
+  {
+   "name": "Comico",
+   "slug": "comico",
+   "category": "Handwritten",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/comico/400-SC6IR6E3AS.woff2"
+   ]
+  },
+  {
+   "name": "Rowan",
+   "slug": "rowan",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/rowan/300-LQ3WIRSTWT.woff2",
+    "fonts-fontshare/rowan/300i-OGM6QP4ZZ3.woff2",
+    "fonts-fontshare/rowan/400-6VXKNERFU5.woff2",
+    "fonts-fontshare/rowan/400i-JRRRYD55Q5.woff2",
+    "fonts-fontshare/rowan/500-YYPZMCVKUF.woff2",
+    "fonts-fontshare/rowan/500i-E7XHDWG3ZO.woff2",
+    "fonts-fontshare/rowan/600-YD64V4X2IZ.woff2",
+    "fonts-fontshare/rowan/600i-F73TVLD5KQ.woff2",
+    "fonts-fontshare/rowan/700-IC5DDU5MQQ.woff2",
+    "fonts-fontshare/rowan/700i-TFOFDALP3X.woff2"
+   ]
+  },
+  {
+   "name": "Technor",
+   "slug": "technor",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/technor/300-4W3C6YEZFM.woff2",
+    "fonts-fontshare/technor/400-JCAROJ7ESN.woff2",
+    "fonts-fontshare/technor/500-5MAYRGCMTM.woff2",
+    "fonts-fontshare/technor/600-DLYUQXINIV.woff2",
+    "fonts-fontshare/technor/700-MRUFJCB2XB.woff2"
+   ]
+  },
+  {
+   "name": "General Sans",
+   "slug": "general-sans",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/general-sans/300-TW4KNQIPR4.woff2",
+    "fonts-fontshare/general-sans/300i-NCX5HIWY7R.woff2",
+    "fonts-fontshare/general-sans/400-7YY3ZAAE3T.woff2",
+    "fonts-fontshare/general-sans/400i-AHPLTG2YAS.woff2",
+    "fonts-fontshare/general-sans/500-SB2OEB6IKZ.woff2",
+    "fonts-fontshare/general-sans/500i-H7W54QQR2V.woff2",
+    "fonts-fontshare/general-sans/600-3ZLMEXZEQP.woff2",
+    "fonts-fontshare/general-sans/600i-6FVUUVSLJP.woff2",
+    "fonts-fontshare/general-sans/700-NIQ54PVBBI.woff2",
+    "fonts-fontshare/general-sans/700i-HCZ5OQRTYQ.woff2"
+   ]
+  },
+  {
+   "name": "Sentient",
+   "slug": "sentient",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/sentient/300-M6X7C56BMV.woff2",
+    "fonts-fontshare/sentient/300i-BMDXKMY33X.woff2",
+    "fonts-fontshare/sentient/400-SIH66VPT4W.woff2",
+    "fonts-fontshare/sentient/400i-VLFJG7GKGM.woff2",
+    "fonts-fontshare/sentient/500-RNUZPHMIVM.woff2",
+    "fonts-fontshare/sentient/500i-GEU6O3LK7Q.woff2",
+    "fonts-fontshare/sentient/700-433XP6QWDV.woff2",
+    "fonts-fontshare/sentient/700i-RGTHFDFRZA.woff2"
+   ]
+  },
+  {
+   "name": "Boska",
+   "slug": "boska",
+   "category": "Serif, Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/boska/300-I44HAUJWZ2.woff2",
+    "fonts-fontshare/boska/300i-OGPJFKZUO6.woff2",
+    "fonts-fontshare/boska/400-2WOBSOJLL4.woff2",
+    "fonts-fontshare/boska/400i-2YQT6WFIC4.woff2",
+    "fonts-fontshare/boska/500-DCZMHDUIIN.woff2",
+    "fonts-fontshare/boska/500i-7CAW3NYJZQ.woff2",
+    "fonts-fontshare/boska/700-HKX3FF46MB.woff2",
+    "fonts-fontshare/boska/700i-IXMM5CYHRZ.woff2"
+   ]
+  },
+  {
+   "name": "Switzer",
+   "slug": "switzer",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/switzer/300-H5EOHLIZH5.woff2",
+    "fonts-fontshare/switzer/300i-VIBEJS7WAA.woff2",
+    "fonts-fontshare/switzer/400-6IN5WOLRCY.woff2",
+    "fonts-fontshare/switzer/400i-O34WRFYO7J.woff2",
+    "fonts-fontshare/switzer/500-6XPIMU23OJ.woff2",
+    "fonts-fontshare/switzer/500i-C6VLICDGQW.woff2",
+    "fonts-fontshare/switzer/600-YS3VPNVO4B.woff2",
+    "fonts-fontshare/switzer/600i-IOAFMDAPNX.woff2",
+    "fonts-fontshare/switzer/700-Y7SCNZJOT2.woff2",
+    "fonts-fontshare/switzer/700i-A7AS3UPAGL.woff2",
+    "fonts-fontshare/switzer/800-SMQAIKPHV4.woff2"
+   ]
+  },
+  {
+   "name": "Tabular",
+   "slug": "tabular",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/tabular/300-X2WIG4ZWMR.woff2",
+    "fonts-fontshare/tabular/300i-QKZTP4JFQU.woff2",
+    "fonts-fontshare/tabular/400-243MYGFACQ.woff2",
+    "fonts-fontshare/tabular/400i-ZA4CWSHYPV.woff2",
+    "fonts-fontshare/tabular/500-JSEKWSFY2R.woff2",
+    "fonts-fontshare/tabular/500i-VJGUCKU34S.woff2",
+    "fonts-fontshare/tabular/600-CTCUQKB6CP.woff2",
+    "fonts-fontshare/tabular/600i-YTLJVDM3KC.woff2",
+    "fonts-fontshare/tabular/700-QOBW5F6JII.woff2",
+    "fonts-fontshare/tabular/700i-ASL6RCJIZ2.woff2"
+   ]
+  },
+  {
+   "name": "Tanker",
+   "slug": "tanker",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/tanker/400-GKSURDSYOF.woff2"
+   ]
+  },
+  {
+   "name": "Expose",
+   "slug": "expose",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/expose/400-JIGE53G2RN.woff2",
+    "fonts-fontshare/expose/500-2US2T5LYAW.woff2",
+    "fonts-fontshare/expose/700-GUBPVHHFGA.woff2"
+   ]
+  },
+  {
+   "name": "Striper",
+   "slug": "striper",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/striper/400-SKVWXOS7RA.woff2"
+   ]
+  },
+  {
+   "name": "Boxing",
+   "slug": "boxing",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/boxing/400-TBVH46IPDA.woff2"
+   ]
+  },
+  {
+   "name": "Pilcrow Rounded",
+   "slug": "pilcrow-rounded",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/pilcrow-rounded/400-6KQY4JB7EW.woff2",
+    "fonts-fontshare/pilcrow-rounded/500-J7ENFD7Z4C.woff2",
+    "fonts-fontshare/pilcrow-rounded/600-3UK3RSCH5T.woff2",
+    "fonts-fontshare/pilcrow-rounded/700-HRYCW2EENY.woff2"
+   ]
+  },
+  {
+   "name": "Melodrama",
+   "slug": "melodrama",
+   "category": "Sans, Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/melodrama/300-L4FFZ42ZYA.woff2",
+    "fonts-fontshare/melodrama/400-RSPG5F452B.woff2",
+    "fonts-fontshare/melodrama/500-FOOWDQGE4V.woff2",
+    "fonts-fontshare/melodrama/600-XC5RR3MD6B.woff2",
+    "fonts-fontshare/melodrama/700-DNLDXNUKJA.woff2"
+   ]
+  },
+  {
+   "name": "Kohinoor Zerone",
+   "slug": "kohinoor-zerone",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": []
+  },
+  {
+   "name": "New Title",
+   "slug": "new-title",
+   "category": "Sans, Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/new-title/300-4UGZ2DYG66.woff2",
+    "fonts-fontshare/new-title/400-OAAFYYGUNJ.woff2",
+    "fonts-fontshare/new-title/500-O3BFJ6Y3JT.woff2",
+    "fonts-fontshare/new-title/700-NCFOWRF5DO.woff2"
+   ]
+  },
+  {
+   "name": "Aktura",
+   "slug": "aktura",
+   "category": "Serif,  Blackletter, Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/aktura/400-UI4W6M6UVX.woff2"
+   ]
+  },
+  {
+   "name": "Alpino",
+   "slug": "alpino",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/alpino/300-MRYPIGE2VZ.woff2",
+    "fonts-fontshare/alpino/400-Z4Q4AHQTIF.woff2",
+    "fonts-fontshare/alpino/500-5H7H3NLI26.woff2",
+    "fonts-fontshare/alpino/700-JA5K34CNW5.woff2"
+   ]
+  },
+  {
+   "name": "Amulya",
+   "slug": "amulya",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/amulya/300-KI7QXZEIVA.woff2",
+    "fonts-fontshare/amulya/300i-44AXT6CW6P.woff2",
+    "fonts-fontshare/amulya/400-QJ55ZH5AEG.woff2",
+    "fonts-fontshare/amulya/400i-3ZELVAXG4U.woff2",
+    "fonts-fontshare/amulya/500-KHWMXXFL26.woff2",
+    "fonts-fontshare/amulya/500i-GWALS2WBTX.woff2",
+    "fonts-fontshare/amulya/700-ZFQSVX4AE3.woff2",
+    "fonts-fontshare/amulya/700i-L2QP4F62LO.woff2"
+   ]
+  },
+  {
+   "name": "Array",
+   "slug": "array",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/array/400-C6VM2RT4EU.woff2",
+    "fonts-fontshare/array/400-HU6RK3235L.woff2",
+    "fonts-fontshare/array/600-N2P4YTB27O.woff2",
+    "fonts-fontshare/array/600-UVB4QMHQ4S.woff2",
+    "fonts-fontshare/array/700-2RWR7WKM4Z.woff2",
+    "fonts-fontshare/array/700-QDDNC5ZGCU.woff2"
+   ]
+  },
+  {
+   "name": "Author",
+   "slug": "author",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/author/300-54FBZYVO74.woff2",
+    "fonts-fontshare/author/300i-FZLLYFLRB6.woff2",
+    "fonts-fontshare/author/400-S4GQQ4OYJX.woff2",
+    "fonts-fontshare/author/400i-TCDTPBKYPJ.woff2",
+    "fonts-fontshare/author/500-6LYCTMFTSO.woff2",
+    "fonts-fontshare/author/500i-SBLCKZPRN7.woff2",
+    "fonts-fontshare/author/600-J4WWWV5RAQ.woff2",
+    "fonts-fontshare/author/600i-CZBFOUH3KO.woff2",
+    "fonts-fontshare/author/700-XPBQYLR3KQ.woff2",
+    "fonts-fontshare/author/700i-ZXZUMNVJXS.woff2"
+   ]
+  },
+  {
+   "name": "Bespoke Sans",
+   "slug": "bespoke-sans",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/bespoke-sans/100-3TQJM3LST7.woff2",
+    "fonts-fontshare/bespoke-sans/100-4RNSW3A6MN.woff2",
+    "fonts-fontshare/bespoke-sans/200-6IG5NRG4D4.woff2",
+    "fonts-fontshare/bespoke-sans/200-CQ45TEYWYB.woff2",
+    "fonts-fontshare/bespoke-sans/200-J2GX7J4D2F.woff2",
+    "fonts-fontshare/bespoke-sans/300-3LQZJYXAXU.woff2",
+    "fonts-fontshare/bespoke-sans/300-4UGZ2DYG66.woff2",
+    "fonts-fontshare/bespoke-sans/300-726SEWPAJO.woff2",
+    "fonts-fontshare/bespoke-sans/300-FOXOJLJXHK.woff2",
+    "fonts-fontshare/bespoke-sans/300-L5RECMN3L4.woff2",
+    "fonts-fontshare/bespoke-sans/300-SPD5TGNFK2.woff2",
+    "fonts-fontshare/bespoke-sans/300-XV7ESZCVQJ.woff2",
+    "fonts-fontshare/bespoke-sans/300i-2UHJ3CE34C.woff2",
+    "fonts-fontshare/bespoke-sans/400-5ZZU4JM62P.woff2",
+    "fonts-fontshare/bespoke-sans/400-6GXXGWV7H6.woff2",
+    "fonts-fontshare/bespoke-sans/400-EMRNL4XMLB.woff2",
+    "fonts-fontshare/bespoke-sans/400-OAAFYYGUNJ.woff2",
+    "fonts-fontshare/bespoke-sans/400-ODDSCHC7OZ.woff2",
+    "fonts-fontshare/bespoke-sans/400-RXZ46KOEDG.woff2",
+    "fonts-fontshare/bespoke-sans/400-WME7ZNOIO6.woff2",
+    "fonts-fontshare/bespoke-sans/400i-HBXEH5XIT6.woff2",
+    "fonts-fontshare/bespoke-sans/500-7BXN3ORLQX.woff2",
+    "fonts-fontshare/bespoke-sans/500-CKYRRHOBS7.woff2",
+    "fonts-fontshare/bespoke-sans/500-DXASCID3BX.woff2",
+    "fonts-fontshare/bespoke-sans/500-GHZ524YD2K.woff2",
+    "fonts-fontshare/bespoke-sans/500-HI4I7UTE26.woff2",
+    "fonts-fontshare/bespoke-sans/500-O3BFJ6Y3JT.woff2",
+    "fonts-fontshare/bespoke-sans/500-UMQTMTAEPC.woff2",
+    "fonts-fontshare/bespoke-sans/500i-QFFSHN6LDB.woff2",
+    "fonts-fontshare/bespoke-sans/600-6KRVTMHEY2.woff2",
+    "fonts-fontshare/bespoke-sans/600-ET47ZE7EE7.woff2",
+    "fonts-fontshare/bespoke-sans/600-R55OPPYH4Z.woff2",
+    "fonts-fontshare/bespoke-sans/700-A5SNPMWBJV.woff2",
+    "fonts-fontshare/bespoke-sans/700-BIDYWR33G7.woff2",
+    "fonts-fontshare/bespoke-sans/700-LICKIETVGV.woff2",
+    "fonts-fontshare/bespoke-sans/700-NCFOWRF5DO.woff2",
+    "fonts-fontshare/bespoke-sans/700-RMBKFTS6UF.woff2",
+    "fonts-fontshare/bespoke-sans/700-SK34EB5SQX.woff2",
+    "fonts-fontshare/bespoke-sans/700-TN7F4YNDQ3.woff2",
+    "fonts-fontshare/bespoke-sans/700i-JM64Q43QXR.woff2",
+    "fonts-fontshare/bespoke-sans/800-DESQPV3FTQ.woff2",
+    "fonts-fontshare/bespoke-sans/800-UPZ7O6SKOW.woff2"
+   ]
+  },
+  {
+   "name": "Bespoke Serif",
+   "slug": "bespoke-serif",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/bespoke-serif/300-4SUX34SCSG.woff2",
+    "fonts-fontshare/bespoke-serif/300i-JY6T5TIASD.woff2",
+    "fonts-fontshare/bespoke-serif/400-DLLWXFUYSJ.woff2",
+    "fonts-fontshare/bespoke-serif/400i-NT532Z6ZTW.woff2",
+    "fonts-fontshare/bespoke-serif/500-GYEHMKM4WL.woff2",
+    "fonts-fontshare/bespoke-serif/500i-KA67ITTWV3.woff2",
+    "fonts-fontshare/bespoke-serif/700-A3D35MFKWQ.woff2",
+    "fonts-fontshare/bespoke-serif/700i-JC7YSUD3V7.woff2",
+    "fonts-fontshare/bespoke-serif/800-KI5JE6TBO7.woff2"
+   ]
+  },
+  {
+   "name": "Bespoke Slab",
+   "slug": "bespoke-slab",
+   "category": "Slab",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/bespoke-slab/200-22XIOMXP3O.woff2",
+    "fonts-fontshare/bespoke-slab/200-AHDZLCWILE.woff2",
+    "fonts-fontshare/bespoke-slab/200-CQ45TEYWYB.woff2",
+    "fonts-fontshare/bespoke-slab/200-NULWCMFPHM.woff2",
+    "fonts-fontshare/bespoke-slab/300-2JKPBTPPWL.woff2",
+    "fonts-fontshare/bespoke-slab/300-4UGZ2DYG66.woff2",
+    "fonts-fontshare/bespoke-slab/300-643AI6HSF6.woff2",
+    "fonts-fontshare/bespoke-slab/300-EZGCZSDULS.woff2",
+    "fonts-fontshare/bespoke-slab/300-FOXOJLJXHK.woff2",
+    "fonts-fontshare/bespoke-slab/300-I44HAUJWZ2.woff2",
+    "fonts-fontshare/bespoke-slab/300-K7LIBZMHVQ.woff2",
+    "fonts-fontshare/bespoke-slab/300-KVT4BC5ZH7.woff2",
+    "fonts-fontshare/bespoke-slab/300-L4FFZ42ZYA.woff2",
+    "fonts-fontshare/bespoke-slab/300i-H7IJ6WLSPX.woff2",
+    "fonts-fontshare/bespoke-slab/400-25FALKXSHR.woff2",
+    "fonts-fontshare/bespoke-slab/400-2IULMYS7GX.woff2",
+    "fonts-fontshare/bespoke-slab/400-2WOBSOJLL4.woff2",
+    "fonts-fontshare/bespoke-slab/400-BSY64LPTT3.woff2",
+    "fonts-fontshare/bespoke-slab/400-JIGE53G2RN.woff2",
+    "fonts-fontshare/bespoke-slab/400-OAAFYYGUNJ.woff2",
+    "fonts-fontshare/bespoke-slab/400-RSPG5F452B.woff2",
+    "fonts-fontshare/bespoke-slab/400-S7RGXL3UNV.woff2",
+    "fonts-fontshare/bespoke-slab/400-TKDKVV533P.woff2",
+    "fonts-fontshare/bespoke-slab/400-WME7ZNOIO6.woff2",
+    "fonts-fontshare/bespoke-slab/400i-JF3YFDXT7V.woff2",
+    "fonts-fontshare/bespoke-slab/500-2TGRWF4YN6.woff2",
+    "fonts-fontshare/bespoke-slab/500-2US2T5LYAW.woff2",
+    "fonts-fontshare/bespoke-slab/500-DCZMHDUIIN.woff2",
+    "fonts-fontshare/bespoke-slab/500-F3PKOKZGKR.woff2",
+    "fonts-fontshare/bespoke-slab/500-FOOWDQGE4V.woff2",
+    "fonts-fontshare/bespoke-slab/500-HI4I7UTE26.woff2",
+    "fonts-fontshare/bespoke-slab/500-JDWHS3DXBQ.woff2",
+    "fonts-fontshare/bespoke-slab/500-JTSL5QESUX.woff2",
+    "fonts-fontshare/bespoke-slab/500-O3BFJ6Y3JT.woff2",
+    "fonts-fontshare/bespoke-slab/500-Y5L6UK3BGQ.woff2",
+    "fonts-fontshare/bespoke-slab/500i-PUSPZLPYJJ.woff2",
+    "fonts-fontshare/bespoke-slab/600-3AWNFIOPVJ.woff2",
+    "fonts-fontshare/bespoke-slab/600-A5Y3H4CLF6.woff2",
+    "fonts-fontshare/bespoke-slab/600-XC5RR3MD6B.woff2",
+    "fonts-fontshare/bespoke-slab/600-Z3MGHFHX6D.woff2",
+    "fonts-fontshare/bespoke-slab/700-53RZKGODFY.woff2",
+    "fonts-fontshare/bespoke-slab/700-5CYW7XHU27.woff2",
+    "fonts-fontshare/bespoke-slab/700-A5SNPMWBJV.woff2",
+    "fonts-fontshare/bespoke-slab/700-DNLDXNUKJA.woff2",
+    "fonts-fontshare/bespoke-slab/700-FWAZTX4NTM.woff2",
+    "fonts-fontshare/bespoke-slab/700-GUBPVHHFGA.woff2",
+    "fonts-fontshare/bespoke-slab/700-HKX3FF46MB.woff2",
+    "fonts-fontshare/bespoke-slab/700-LX2N2Z5MOH.woff2",
+    "fonts-fontshare/bespoke-slab/700-NCFOWRF5DO.woff2",
+    "fonts-fontshare/bespoke-slab/700-V4PHQ63ODH.woff2",
+    "fonts-fontshare/bespoke-slab/700i-3K5WSBFTRX.woff2",
+    "fonts-fontshare/bespoke-slab/800-DESQPV3FTQ.woff2",
+    "fonts-fontshare/bespoke-slab/800-GQZHNNCEH3.woff2",
+    "fonts-fontshare/bespoke-slab/800-NMOC7QLSCX.woff2",
+    "fonts-fontshare/bespoke-slab/900-3UF6QRVJ77.woff2",
+    "fonts-fontshare/bespoke-slab/900-B3FYQBLP5H.woff2"
+   ]
+  },
+  {
+   "name": "Bespoke Stencil",
+   "slug": "bespoke-stencil",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/bespoke-stencil/300-EZGCZSDULS.woff2",
+    "fonts-fontshare/bespoke-stencil/300i-WQVP5JXFIS.woff2",
+    "fonts-fontshare/bespoke-stencil/400-25FALKXSHR.woff2",
+    "fonts-fontshare/bespoke-stencil/400i-H2U6HXXYVN.woff2",
+    "fonts-fontshare/bespoke-stencil/500-Y5L6UK3BGQ.woff2",
+    "fonts-fontshare/bespoke-stencil/500i-YQJQMHBSC3.woff2",
+    "fonts-fontshare/bespoke-stencil/700-FWAZTX4NTM.woff2",
+    "fonts-fontshare/bespoke-stencil/700i-7ZY5Q4U2W3.woff2",
+    "fonts-fontshare/bespoke-stencil/800-GQZHNNCEH3.woff2"
+   ]
+  },
+  {
+   "name": "Clash Grotesk",
+   "slug": "clash-grotesk",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/clash-grotesk/300-DKSXVIDJAN.woff2",
+    "fonts-fontshare/clash-grotesk/400-MJQFMMOTEG.woff2",
+    "fonts-fontshare/clash-grotesk/500-DJS4RYGIUY.woff2",
+    "fonts-fontshare/clash-grotesk/600-KN7DX4F6PX.woff2",
+    "fonts-fontshare/clash-grotesk/700-I5W5NEJGYV.woff2"
+   ]
+  },
+  {
+   "name": "Clash Display",
+   "slug": "clash-display",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/clash-display/300-KVT4BC5ZH7.woff2",
+    "fonts-fontshare/clash-display/400-BSY64LPTT3.woff2",
+    "fonts-fontshare/clash-display/500-JTSL5QESUX.woff2",
+    "fonts-fontshare/clash-display/600-Z3MGHFHX6D.woff2",
+    "fonts-fontshare/clash-display/700-53RZKGODFY.woff2"
+   ]
+  },
+  {
+   "name": "Chubbo",
+   "slug": "chubbo",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/chubbo/300-DCAQ43WWEO.woff2",
+    "fonts-fontshare/chubbo/300i-PZGI22SD7M.woff2",
+    "fonts-fontshare/chubbo/400-FMLJE45HBN.woff2",
+    "fonts-fontshare/chubbo/400i-G3DVFL25SJ.woff2",
+    "fonts-fontshare/chubbo/500-H6NAWOHOIT.woff2",
+    "fonts-fontshare/chubbo/500i-I66S6UNXII.woff2",
+    "fonts-fontshare/chubbo/700-SXM42C3P3F.woff2",
+    "fonts-fontshare/chubbo/700i-QGXVSV4GRE.woff2"
+   ]
+  },
+  {
+   "name": "Chillax",
+   "slug": "chillax",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/chillax/300-JEWCW7XRBN.woff2",
+    "fonts-fontshare/chillax/400-XESIRBQU62.woff2",
+    "fonts-fontshare/chillax/500-WZY5PMNTII.woff2",
+    "fonts-fontshare/chillax/600-THF5L6EHVL.woff2",
+    "fonts-fontshare/chillax/700-T2KA2X72VG.woff2"
+   ]
+  },
+  {
+   "name": "Cabinet Grotesk",
+   "slug": "cabinet-grotesk",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/cabinet-grotesk/300-MT4CWVHB3N.woff2",
+    "fonts-fontshare/cabinet-grotesk/400-NXM4Z4TDCM.woff2",
+    "fonts-fontshare/cabinet-grotesk/500-4CO2ETY7NI.woff2",
+    "fonts-fontshare/cabinet-grotesk/700-WN5274VQ3A.woff2",
+    "fonts-fontshare/cabinet-grotesk/800-6QH2ALVTTK.woff2"
+   ]
+  },
+  {
+   "name": "Britney",
+   "slug": "britney",
+   "category": "Script",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/britney/300-EIP2C7E6OF.woff2",
+    "fonts-fontshare/britney/400-TZNLC4T7WK.woff2",
+    "fonts-fontshare/britney/700-ZL52X4UE6R.woff2"
+   ]
+  },
+  {
+   "name": "Bonny",
+   "slug": "bonny",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/bonny/300-T6HDSSPAFZ.woff2",
+    "fonts-fontshare/bonny/400-K4WM2XCCNW.woff2",
+    "fonts-fontshare/bonny/500-3LWNDZX7GK.woff2",
+    "fonts-fontshare/bonny/700-V6D52R6BLS.woff2"
+   ]
+  },
+  {
+   "name": "Bevellier",
+   "slug": "bevellier",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/bevellier/300-Q5L3EHQCKM.woff2",
+    "fonts-fontshare/bevellier/300i-2WIWGJVZA3.woff2",
+    "fonts-fontshare/bevellier/400-AS2NMILIYI.woff2",
+    "fonts-fontshare/bevellier/400i-M5FFVIMQJS.woff2",
+    "fonts-fontshare/bevellier/500-SCSRZSIUS6.woff2",
+    "fonts-fontshare/bevellier/500i-WRVQYLW7SZ.woff2",
+    "fonts-fontshare/bevellier/600-ECOUSMBBNG.woff2",
+    "fonts-fontshare/bevellier/600i-DCHCGXFXLB.woff2",
+    "fonts-fontshare/bevellier/700-UUUYL7NICB.woff2",
+    "fonts-fontshare/bevellier/700i-IPK5A5OFKK.woff2"
+   ]
+  },
+  {
+   "name": "Archivo",
+   "slug": "archivo",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/archivo/300-VYFZGEBESZ.woff2",
+    "fonts-fontshare/archivo/300i-YNCWKXPLAU.woff2",
+    "fonts-fontshare/archivo/400-7BTLO3ZVFM.woff2",
+    "fonts-fontshare/archivo/400i-M4ILLQ6F2C.woff2",
+    "fonts-fontshare/archivo/500-EPHSF4UBJR.woff2",
+    "fonts-fontshare/archivo/500i-T7LX6PNCPA.woff2",
+    "fonts-fontshare/archivo/600-HI3GXDQAAB.woff2",
+    "fonts-fontshare/archivo/600i-GXMY4OWOMS.woff2",
+    "fonts-fontshare/archivo/700-UHPKREF72U.woff2",
+    "fonts-fontshare/archivo/700i-3N3HRVZHDN.woff2",
+    "fonts-fontshare/archivo/800-365ENB5SRQ.woff2"
+   ]
+  },
+  {
+   "name": "Dancing Script",
+   "slug": "dancing-script",
+   "category": "Script",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/dancing-script/400-TP3JFRLCQL.woff2",
+    "fonts-fontshare/dancing-script/700-Q7YMGCCX6E.woff2"
+   ]
+  },
+  {
+   "name": "Poppins",
+   "slug": "poppins",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/poppins/300-3HCNXVAKPO.woff2",
+    "fonts-fontshare/poppins/300i-GVIYM5ATH5.woff2",
+    "fonts-fontshare/poppins/400-JMWNCAGBH3.woff2",
+    "fonts-fontshare/poppins/400i-SSNNTU67MM.woff2",
+    "fonts-fontshare/poppins/500-UCDYLFFGLZ.woff2",
+    "fonts-fontshare/poppins/500i-OFRM3ATAEV.woff2",
+    "fonts-fontshare/poppins/600-24R4YOH3G2.woff2",
+    "fonts-fontshare/poppins/600i-3Y2FFVDRGJ.woff2",
+    "fonts-fontshare/poppins/700-FYG6OCH7XO.woff2",
+    "fonts-fontshare/poppins/700i-NOLRWF3JBJ.woff2",
+    "fonts-fontshare/poppins/800-IX2APREQD7.woff2"
+   ]
+  },
+  {
+   "name": "Bebas Neue",
+   "slug": "bebas-neue",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/bebas-neue/400-2TXZKBJMJV.woff2"
+   ]
+  },
+  {
+   "name": "Anton",
+   "slug": "anton",
+   "category": "Sans, Display",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/anton/400-PCXT6E5YCQ.woff2"
+   ]
+  },
+  {
+   "name": "Be Vietnam Pro",
+   "slug": "beVietnam-pro",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/beVietnam-pro/300-LXYZEGIPPS.woff2",
+    "fonts-fontshare/beVietnam-pro/300i-5Z5FO66WIE.woff2",
+    "fonts-fontshare/beVietnam-pro/400-G2K4CBVGEH.woff2",
+    "fonts-fontshare/beVietnam-pro/400i-IVQUU3WGE5.woff2",
+    "fonts-fontshare/beVietnam-pro/500-YDWF2IPIKX.woff2",
+    "fonts-fontshare/beVietnam-pro/500i-3AXN75NPVM.woff2",
+    "fonts-fontshare/beVietnam-pro/600-G6AF2CHLF7.woff2",
+    "fonts-fontshare/beVietnam-pro/600i-PNI7JG3UHY.woff2",
+    "fonts-fontshare/beVietnam-pro/700-FCI4JZSZUO.woff2",
+    "fonts-fontshare/beVietnam-pro/700i-VGXUNOHKAX.woff2",
+    "fonts-fontshare/beVietnam-pro/800-BTMBOVAO2C.woff2"
+   ]
+  },
+  {
+   "name": "Nunito",
+   "slug": "nunito",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/nunito/300-WZ4OYS2KWI.woff2",
+    "fonts-fontshare/nunito/300i-USE6YUSUV6.woff2",
+    "fonts-fontshare/nunito/400-JU4XHYYDF6.woff2",
+    "fonts-fontshare/nunito/400i-N4IXOG2FT7.woff2",
+    "fonts-fontshare/nunito/500-XZA7IBHUHT.woff2",
+    "fonts-fontshare/nunito/500i-KWSE3KJXUO.woff2",
+    "fonts-fontshare/nunito/600-MKTS7VJCH3.woff2",
+    "fonts-fontshare/nunito/600i-3VCPBSCR4R.woff2",
+    "fonts-fontshare/nunito/700-4V6IAVOQFO.woff2",
+    "fonts-fontshare/nunito/700i-FUD5SY5VEK.woff2",
+    "fonts-fontshare/nunito/800-DA6SBKJCYG.woff2"
+   ]
+  },
+  {
+   "name": "Public Sans",
+   "slug": "public-sans",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/public-sans/300-FZMBQ7EYNI.woff2",
+    "fonts-fontshare/public-sans/300i-6VKLQ2FJPN.woff2",
+    "fonts-fontshare/public-sans/400-RFZLLA6NQU.woff2",
+    "fonts-fontshare/public-sans/400i-OVIDXH6HUT.woff2",
+    "fonts-fontshare/public-sans/500-GDKOTCZ4SQ.woff2",
+    "fonts-fontshare/public-sans/500i-F64OLKV3NF.woff2",
+    "fonts-fontshare/public-sans/600-4QGWO2XSJ4.woff2",
+    "fonts-fontshare/public-sans/600i-OAK7VMJV4T.woff2",
+    "fonts-fontshare/public-sans/700-HUT36TIUMR.woff2",
+    "fonts-fontshare/public-sans/700i-AF7QMSQHT2.woff2",
+    "fonts-fontshare/public-sans/800-3SVABTHPVZ.woff2"
+   ]
+  },
+  {
+   "name": "Fira Sans",
+   "slug": "fira-sans",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/fira-sans/300-PHAZBAK7CL.woff2",
+    "fonts-fontshare/fira-sans/300i-4FG53VO3SQ.woff2",
+    "fonts-fontshare/fira-sans/400-MITUNP2IVU.woff2",
+    "fonts-fontshare/fira-sans/400i-L22KE76YK6.woff2",
+    "fonts-fontshare/fira-sans/500-D22S3MA4GK.woff2",
+    "fonts-fontshare/fira-sans/500i-OA74R7H4QE.woff2",
+    "fonts-fontshare/fira-sans/600-UCTPHJ5G3W.woff2",
+    "fonts-fontshare/fira-sans/600i-7YYJIL3EF4.woff2",
+    "fonts-fontshare/fira-sans/700-TGKQVOYGQX.woff2",
+    "fonts-fontshare/fira-sans/700i-CI3E7APIVG.woff2",
+    "fonts-fontshare/fira-sans/800-HPCHKE6LEP.woff2"
+   ]
+  },
+  {
+   "name": "Azeret Mono",
+   "slug": "azeret-mono",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/azeret-mono/300-WO3MD7I45G.woff2",
+    "fonts-fontshare/azeret-mono/300i-TUZFFP6XCD.woff2",
+    "fonts-fontshare/azeret-mono/400-BUAFC2XP3Y.woff2",
+    "fonts-fontshare/azeret-mono/400i-YT3TQS3PHN.woff2",
+    "fonts-fontshare/azeret-mono/500-7GATDCIWKU.woff2",
+    "fonts-fontshare/azeret-mono/500i-5IQ4EOIYMB.woff2",
+    "fonts-fontshare/azeret-mono/600-YYXZTGXTXQ.woff2",
+    "fonts-fontshare/azeret-mono/600i-DFUDBMWWQ4.woff2",
+    "fonts-fontshare/azeret-mono/700-WUFCQKTQOE.woff2",
+    "fonts-fontshare/azeret-mono/700i-4UHO3DE5IW.woff2",
+    "fonts-fontshare/azeret-mono/800-TIYXM6LTW3.woff2"
+   ]
+  },
+  {
+   "name": "Epilogue",
+   "slug": "epilogue",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/epilogue/300-YRJ2TVQJ4C.woff2",
+    "fonts-fontshare/epilogue/300i-JU6542LO3W.woff2",
+    "fonts-fontshare/epilogue/400-FXFHMD66ZL.woff2",
+    "fonts-fontshare/epilogue/400i-T7T65M73WI.woff2",
+    "fonts-fontshare/epilogue/500-ZCQFQWYK27.woff2",
+    "fonts-fontshare/epilogue/500i-UKD6R7XGPW.woff2",
+    "fonts-fontshare/epilogue/600-YDPYKQPH3J.woff2",
+    "fonts-fontshare/epilogue/600i-IGCNSV5UWP.woff2",
+    "fonts-fontshare/epilogue/700-XVEXE7YCBG.woff2",
+    "fonts-fontshare/epilogue/700i-KVA3QGLTXV.woff2",
+    "fonts-fontshare/epilogue/800-4MAIFDYTRB.woff2"
+   ]
+  },
+  {
+   "name": "Work Sans",
+   "slug": "work-sans",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/work-sans/300-PP6QWZTGOJ.woff2",
+    "fonts-fontshare/work-sans/300i-4S72ECVPF7.woff2",
+    "fonts-fontshare/work-sans/400-ND3FIMQYFE.woff2",
+    "fonts-fontshare/work-sans/400i-3OAWBZES3Q.woff2",
+    "fonts-fontshare/work-sans/500-THXRGVPNH4.woff2",
+    "fonts-fontshare/work-sans/500i-NYV4ZQMHP7.woff2",
+    "fonts-fontshare/work-sans/600-XUL6BSI7XT.woff2",
+    "fonts-fontshare/work-sans/600i-RWELXUBTSL.woff2",
+    "fonts-fontshare/work-sans/700-LIFXYPK76U.woff2",
+    "fonts-fontshare/work-sans/700i-LXEOV3VUZC.woff2",
+    "fonts-fontshare/work-sans/800-XAXD6WR3FG.woff2"
+   ]
+  },
+  {
+   "name": "JetBrains Mono",
+   "slug": "jet-brains-mono",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/jet-brains-mono/300-GRV3R7FRDW.woff2",
+    "fonts-fontshare/jet-brains-mono/300i-P5A36T62G3.woff2",
+    "fonts-fontshare/jet-brains-mono/400-EO5MKE3BUD.woff2",
+    "fonts-fontshare/jet-brains-mono/400i-O32TDYA5Q7.woff2",
+    "fonts-fontshare/jet-brains-mono/500-33ZCUAC3GU.woff2",
+    "fonts-fontshare/jet-brains-mono/500i-YKQ7PORZM5.woff2",
+    "fonts-fontshare/jet-brains-mono/600-C4X2AZFIU7.woff2",
+    "fonts-fontshare/jet-brains-mono/600i-YTNHPW2PXE.woff2",
+    "fonts-fontshare/jet-brains-mono/700-ATU2C7QZBG.woff2",
+    "fonts-fontshare/jet-brains-mono/700i-UTZ3OSIQCH.woff2",
+    "fonts-fontshare/jet-brains-mono/800-VCHFQIE7HV.woff2"
+   ]
+  },
+  {
+   "name": "Lora",
+   "slug": "lora",
+   "category": "Serif",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/lora/400-ZAXBVAFTWG.woff2",
+    "fonts-fontshare/lora/400i-DJA2WADOVW.woff2",
+    "fonts-fontshare/lora/500-FKKAYEWGEG.woff2",
+    "fonts-fontshare/lora/500i-EW63T7YXBP.woff2",
+    "fonts-fontshare/lora/600-36HN3YOOAC.woff2",
+    "fonts-fontshare/lora/600i-XROJ63A7IJ.woff2",
+    "fonts-fontshare/lora/700-MDERQV6X2U.woff2",
+    "fonts-fontshare/lora/700i-EXS4XC5TKO.woff2"
+   ]
+  },
+  {
+   "name": "Montserrat",
+   "slug": "montserrat",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/montserrat/300-4IO2HK2EZ7.woff2",
+    "fonts-fontshare/montserrat/300i-34EMF6YG4S.woff2",
+    "fonts-fontshare/montserrat/400-DI2GHUWG3W.woff2",
+    "fonts-fontshare/montserrat/400i-3ZPIFBJ6EZ.woff2",
+    "fonts-fontshare/montserrat/500-GDZ4LVIJF6.woff2",
+    "fonts-fontshare/montserrat/500i-YJ3ABP6H4V.woff2",
+    "fonts-fontshare/montserrat/600-6DP3DAT2N5.woff2",
+    "fonts-fontshare/montserrat/600i-SOTTHSMCKK.woff2",
+    "fonts-fontshare/montserrat/700-SHZ3SDA4YU.woff2",
+    "fonts-fontshare/montserrat/700i-BOBO2BRVXZ.woff2",
+    "fonts-fontshare/montserrat/800-UKL6CY2W4I.woff2"
+   ]
+  },
+  {
+   "name": "Manrope",
+   "slug": "manrope",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/manrope/300-2W7RU2QRQH.woff2",
+    "fonts-fontshare/manrope/400-UXO4O7K2G3.woff2",
+    "fonts-fontshare/manrope/500-CIM4KQCLZS.woff2",
+    "fonts-fontshare/manrope/600-JNU3GNMUBP.woff2",
+    "fonts-fontshare/manrope/700-6P4FPMFQH7.woff2",
+    "fonts-fontshare/manrope/800-K4ZMLVLHYI.woff2"
+   ]
+  },
+  {
+   "name": "Spline Sans",
+   "slug": "spline-sans",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/spline-sans/300-726SEWPAJO.woff2",
+    "fonts-fontshare/spline-sans/400-6GXXGWV7H6.woff2",
+    "fonts-fontshare/spline-sans/500-CKYRRHOBS7.woff2",
+    "fonts-fontshare/spline-sans/600-ET47ZE7EE7.woff2",
+    "fonts-fontshare/spline-sans/700-BIDYWR33G7.woff2"
+   ]
+  },
+  {
+   "name": "Asap",
+   "slug": "asap",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/asap/400-FO5IE4XSJO.woff2",
+    "fonts-fontshare/asap/400i-LBAD6RQF7N.woff2",
+    "fonts-fontshare/asap/500-XZNPIEAYHC.woff2",
+    "fonts-fontshare/asap/500i-34SEBD6JU6.woff2",
+    "fonts-fontshare/asap/600-CEYO3KWEK4.woff2",
+    "fonts-fontshare/asap/600i-MULC5TJ73U.woff2",
+    "fonts-fontshare/asap/700-TZQBU56TS2.woff2",
+    "fonts-fontshare/asap/700i-YJIKW2BXJF.woff2"
+   ]
+  },
+  {
+   "name": "Crimson Pro",
+   "slug": "crimson-pro",
+   "category": "Serif",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/crimson-pro/300-PVRDS7QNBF.woff2",
+    "fonts-fontshare/crimson-pro/300i-AAS3QMM42U.woff2",
+    "fonts-fontshare/crimson-pro/400-C7YLQ72UPV.woff2",
+    "fonts-fontshare/crimson-pro/400i-MBBEZAMYBG.woff2",
+    "fonts-fontshare/crimson-pro/500-I6OQLSBVBS.woff2",
+    "fonts-fontshare/crimson-pro/500i-VYXCEWW5WA.woff2",
+    "fonts-fontshare/crimson-pro/600-A5JH3KUY2C.woff2",
+    "fonts-fontshare/crimson-pro/600i-CPRAEZUBIZ.woff2",
+    "fonts-fontshare/crimson-pro/700-GCQQA5TCI3.woff2",
+    "fonts-fontshare/crimson-pro/700i-DN3OIO2LUZ.woff2",
+    "fonts-fontshare/crimson-pro/800-RDF7QBYPS5.woff2"
+   ]
+  },
+  {
+   "name": "Oswald",
+   "slug": "oswald",
+   "category": "Sans, Display",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/oswald/300-NJVXI3MMTA.woff2",
+    "fonts-fontshare/oswald/400-OF7M536OVL.woff2",
+    "fonts-fontshare/oswald/500-ZMUCZ2PRQ3.woff2",
+    "fonts-fontshare/oswald/600-QJ44H4IY5J.woff2",
+    "fonts-fontshare/oswald/700-J6GZW3TVVN.woff2"
+   ]
+  },
+  {
+   "name": "Outfit",
+   "slug": "outfit",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/outfit/300-W7JHARPQSG.woff2",
+    "fonts-fontshare/outfit/400-5REHZLR2B5.woff2",
+    "fonts-fontshare/outfit/500-3JX43FCBGI.woff2",
+    "fonts-fontshare/outfit/600-P65L7VCWZE.woff2",
+    "fonts-fontshare/outfit/700-OKGWSU2PUN.woff2",
+    "fonts-fontshare/outfit/800-H5PDA446U7.woff2"
+   ]
+  },
+  {
+   "name": "Plus Jakarta Sans",
+   "slug": "plus-jakarta-sans",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/plus-jakarta-sans/300-S4O37S64HM.woff2",
+    "fonts-fontshare/plus-jakarta-sans/300i-YHCPJQLRTH.woff2",
+    "fonts-fontshare/plus-jakarta-sans/400-OUUAK2X2ME.woff2",
+    "fonts-fontshare/plus-jakarta-sans/400i-LPCI46BISL.woff2",
+    "fonts-fontshare/plus-jakarta-sans/500-FVNNCZHGTH.woff2",
+    "fonts-fontshare/plus-jakarta-sans/500i-QDINYT7WQX.woff2",
+    "fonts-fontshare/plus-jakarta-sans/600-JZ35FM4UJS.woff2",
+    "fonts-fontshare/plus-jakarta-sans/600i-XMNYCZFXUH.woff2",
+    "fonts-fontshare/plus-jakarta-sans/700-OWABOLGBAK.woff2",
+    "fonts-fontshare/plus-jakarta-sans/700i-GV5XODI2YD.woff2",
+    "fonts-fontshare/plus-jakarta-sans/800-RJHIBK2KTT.woff2"
+   ]
+  },
+  {
+   "name": "Familjen Grotesk",
+   "slug": "familjen-grotesk",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/familjen-grotesk/400-FQZMTLU7HX.woff2",
+    "fonts-fontshare/familjen-grotesk/400i-IKXAVOBPMO.woff2",
+    "fonts-fontshare/familjen-grotesk/500-3ARL46TQXN.woff2",
+    "fonts-fontshare/familjen-grotesk/500i-BUIVCG6TCV.woff2",
+    "fonts-fontshare/familjen-grotesk/600-TCTGSFKMKN.woff2",
+    "fonts-fontshare/familjen-grotesk/600i-DULF234HAG.woff2",
+    "fonts-fontshare/familjen-grotesk/700-NMWDK7GAM4.woff2",
+    "fonts-fontshare/familjen-grotesk/700i-ONGHRPEK2K.woff2"
+   ]
+  },
+  {
+   "name": "Roundo",
+   "slug": "roundo",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/roundo/300-2JKPBTPPWL.woff2",
+    "fonts-fontshare/roundo/400-TKDKVV533P.woff2",
+    "fonts-fontshare/roundo/500-F3PKOKZGKR.woff2",
+    "fonts-fontshare/roundo/600-A5Y3H4CLF6.woff2",
+    "fonts-fontshare/roundo/700-V4PHQ63ODH.woff2"
+   ]
+  },
+  {
+   "name": "Hind",
+   "slug": "hind",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/hind/300-LXJDQUN2UA.woff2",
+    "fonts-fontshare/hind/400-7XENMF5F72.woff2",
+    "fonts-fontshare/hind/500-6F4HHRBZ5N.woff2",
+    "fonts-fontshare/hind/600-LATHFSLHJU.woff2",
+    "fonts-fontshare/hind/700-7R6D73ZDYB.woff2"
+   ]
+  },
+  {
+   "name": "Excon",
+   "slug": "excon",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/excon/300-XC2TPU77ZS.woff2",
+    "fonts-fontshare/excon/400-AIIHF6VP5N.woff2",
+    "fonts-fontshare/excon/500-6SKIM7MFND.woff2",
+    "fonts-fontshare/excon/700-X2THLDOFEB.woff2"
+   ]
+  },
+  {
+   "name": "Erode",
+   "slug": "erode",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/erode/300-IV53KIDERL.woff2",
+    "fonts-fontshare/erode/300i-IS7OBYZZ24.woff2",
+    "fonts-fontshare/erode/400-SMFAKKZYPU.woff2",
+    "fonts-fontshare/erode/400i-RDMTNE7APF.woff2",
+    "fonts-fontshare/erode/500-RPYYUUA6FJ.woff2",
+    "fonts-fontshare/erode/500i-2H77JI6FIS.woff2",
+    "fonts-fontshare/erode/600-AL47FDSJFH.woff2",
+    "fonts-fontshare/erode/600i-ZBF3ZZ3GCC.woff2",
+    "fonts-fontshare/erode/700-4MK6ECKUA5.woff2",
+    "fonts-fontshare/erode/700i-MKXTPUTQAK.woff2"
+   ]
+  },
+  {
+   "name": "Kola",
+   "slug": "kola",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/kola/400-5VPG7YAKNR.woff2"
+   ]
+  },
+  {
+   "name": "Pencerio",
+   "slug": "pencerio",
+   "category": "Script",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": []
+  },
+  {
+   "name": "Nippo",
+   "slug": "nippo",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/nippo/300-TC2ABW4Q4U.woff2",
+    "fonts-fontshare/nippo/400-VRZUBY2RFQ.woff2",
+    "fonts-fontshare/nippo/500-A33XXN3HW5.woff2",
+    "fonts-fontshare/nippo/700-B3C3BZREKE.woff2"
+   ]
+  },
+  {
+   "name": "Pally",
+   "slug": "pally",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/pally/400-CEHOWZ3P4T.woff2",
+    "fonts-fontshare/pally/500-M6G3U44JEM.woff2",
+    "fonts-fontshare/pally/700-T66H3U7F4B.woff2"
+   ]
+  },
+  {
+   "name": "Panchang",
+   "slug": "panchang",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/panchang/300-G7T7CRF655.woff2",
+    "fonts-fontshare/panchang/400-K6CYW4ZSO2.woff2",
+    "fonts-fontshare/panchang/500-65ZDTMKIAV.woff2",
+    "fonts-fontshare/panchang/600-5CZKGRVOJ2.woff2",
+    "fonts-fontshare/panchang/700-EE3DYKUPHF.woff2",
+    "fonts-fontshare/panchang/800-BYZ4XKAY33.woff2"
+   ]
+  },
+  {
+   "name": "Neco",
+   "slug": "neco",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/neco/400-OM4IMSIGIG.woff2",
+    "fonts-fontshare/neco/400i-WW23HEHP6I.woff2",
+    "fonts-fontshare/neco/500-TZC4JVHXFE.woff2",
+    "fonts-fontshare/neco/500i-7B6DU64BQZ.woff2",
+    "fonts-fontshare/neco/700-3XK3LQRQHE.woff2",
+    "fonts-fontshare/neco/700i-GXULOUKALZ.woff2"
+   ]
+  },
+  {
+   "name": "Hoover",
+   "slug": "hoover",
+   "category": "Slab",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/hoover/300-OWGCX3MYZH.woff2",
+    "fonts-fontshare/hoover/400-5PIX6GR4DQ.woff2",
+    "fonts-fontshare/hoover/500-UVL6ZLBPDK.woff2",
+    "fonts-fontshare/hoover/700-BVKX472V2F.woff2"
+   ]
+  },
+  {
+   "name": "Kalam",
+   "slug": "kalam",
+   "category": "Handwritten",
+   "license_type": "sil_ofl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/kalam/300-DILDPA636X.woff2",
+    "fonts-fontshare/kalam/400-K7WGKZSI3U.woff2",
+    "fonts-fontshare/kalam/700-GNJHSO7TKX.woff2"
+   ]
+  },
+  {
+   "name": "Space Grotesk",
+   "slug": "space-grotesk",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/space-grotesk/300-FZLOZKW4QK.woff2",
+    "fonts-fontshare/space-grotesk/400-2MGP255ZY2.woff2",
+    "fonts-fontshare/space-grotesk/500-V2SN6OQGC3.woff2",
+    "fonts-fontshare/space-grotesk/600-OB3CIWMGQG.woff2",
+    "fonts-fontshare/space-grotesk/700-COAKOVM7H3.woff2"
+   ]
+  },
+  {
+   "name": "Sharpie",
+   "slug": "sharpie",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/sharpie/300-BHQLPLXFHM.woff2",
+    "fonts-fontshare/sharpie/400-FZPYHU7WM7.woff2",
+    "fonts-fontshare/sharpie/700-XKISSNYMTT.woff2",
+    "fonts-fontshare/sharpie/800-7CO3YAPKDE.woff2"
+   ]
+  },
+  {
+   "name": "Pramukh Rounded",
+   "slug": "pramukh-rounded",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/pramukh-rounded/300-EETX3HXZ2A.woff2",
+    "fonts-fontshare/pramukh-rounded/300i-CEWEWU5NLY.woff2",
+    "fonts-fontshare/pramukh-rounded/400-ZKT4UNE2Q7.woff2",
+    "fonts-fontshare/pramukh-rounded/400i-X3TVKW4EZB.woff2",
+    "fonts-fontshare/pramukh-rounded/600-ME3VLTTEIG.woff2",
+    "fonts-fontshare/pramukh-rounded/600i-VYAYTMMA5O.woff2",
+    "fonts-fontshare/pramukh-rounded/700-U7Y3ZB25DS.woff2",
+    "fonts-fontshare/pramukh-rounded/700i-M4XBBFJITN.woff2",
+    "fonts-fontshare/pramukh-rounded/800-7S6O6DV7HA.woff2"
+   ]
+  },
+  {
+   "name": "Rosaline",
+   "slug": "rosaline",
+   "category": "Script",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/rosaline/400-3O7IDHHZB6.woff2"
+   ]
+  },
+  {
+   "name": "Plein",
+   "slug": "plein",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/plein/300-PTDEYSNMFH.woff2",
+    "fonts-fontshare/plein/300i-7R52BJDTIM.woff2",
+    "fonts-fontshare/plein/400-PKLORZOG2N.woff2",
+    "fonts-fontshare/plein/400i-2SP6AMQP4L.woff2",
+    "fonts-fontshare/plein/500-MNGXIZV722.woff2",
+    "fonts-fontshare/plein/500i-BIICYI2UH5.woff2",
+    "fonts-fontshare/plein/700-RDZVZJY7FM.woff2",
+    "fonts-fontshare/plein/700i-EXZCOWZM2T.woff2"
+   ]
+  },
+  {
+   "name": "Segment",
+   "slug": "segment",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/segment/400-PUEYM6L6KP.woff2"
+   ]
+  },
+  {
+   "name": "Khand",
+   "slug": "khand",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/khand/300-OIRPY3P43J.woff2",
+    "fonts-fontshare/khand/400-YTT75TJYXO.woff2",
+    "fonts-fontshare/khand/500-IN7W3D7JY7.woff2",
+    "fonts-fontshare/khand/600-2N2EJ34OAF.woff2",
+    "fonts-fontshare/khand/700-7KZ375M54M.woff2"
+   ]
+  },
+  {
+   "name": "Styro",
+   "slug": "styro",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/styro/300-JKJJXMT2GG.woff2",
+    "fonts-fontshare/styro/400-RSA3ZQC5FO.woff2",
+    "fonts-fontshare/styro/500-WM6XSORBNN.woff2",
+    "fonts-fontshare/styro/600-3EPMQZHLHY.woff2",
+    "fonts-fontshare/styro/700-RGTEU57WCV.woff2",
+    "fonts-fontshare/styro/800-Z6QLXDN2S4.woff2"
+   ]
+  },
+  {
+   "name": "Trench Slab",
+   "slug": "trench-slab",
+   "category": "Slab",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/trench-slab/300-643AI6HSF6.woff2",
+    "fonts-fontshare/trench-slab/400-S7RGXL3UNV.woff2",
+    "fonts-fontshare/trench-slab/500-2TGRWF4YN6.woff2",
+    "fonts-fontshare/trench-slab/600-3AWNFIOPVJ.woff2",
+    "fonts-fontshare/trench-slab/700-5CYW7XHU27.woff2"
+   ]
+  },
+  {
+   "name": "Quilon",
+   "slug": "quilon",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/quilon/400-X6O7UYNGCD.woff2",
+    "fonts-fontshare/quilon/500-WMXHSZFK2D.woff2",
+    "fonts-fontshare/quilon/600-HYS5537LZI.woff2",
+    "fonts-fontshare/quilon/700-HGP5HJ7YH7.woff2"
+   ]
+  },
+  {
+   "name": "Rajdhani",
+   "slug": "rajdhani",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/rajdhani/300-KEUOY5K2E2.woff2",
+    "fonts-fontshare/rajdhani/400-LDKU4RGE4S.woff2",
+    "fonts-fontshare/rajdhani/500-VX4XSJAXNZ.woff2",
+    "fonts-fontshare/rajdhani/600-O6HA6YRXLO.woff2",
+    "fonts-fontshare/rajdhani/700-3HBRNX5OMP.woff2"
+   ]
+  },
+  {
+   "name": "Paquito",
+   "slug": "paquito",
+   "category": "Serif, Slab",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/paquito/400-TZLLU3XJTX.woff2",
+    "fonts-fontshare/paquito/500-O7JBWBMMHO.woff2",
+    "fonts-fontshare/paquito/700-ZXFNBFTLCW.woff2"
+   ]
+  },
+  {
+   "name": "RX100",
+   "slug": "rx-100",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/rx-100/400-UR4RC3ALHX.woff2"
+   ]
+  },
+  {
+   "name": "Zodiak",
+   "slug": "zodiak",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/zodiak/300-UREX64UV4X.woff2",
+    "fonts-fontshare/zodiak/300i-ZRX2TEYEJE.woff2",
+    "fonts-fontshare/zodiak/400-TBWKTFSYAB.woff2",
+    "fonts-fontshare/zodiak/400i-HUKQ64PZXO.woff2",
+    "fonts-fontshare/zodiak/700-VGG36BIEB6.woff2",
+    "fonts-fontshare/zodiak/700i-I66MZ5NEPL.woff2",
+    "fonts-fontshare/zodiak/800-7BCVT6EXVT.woff2"
+   ]
+  },
+  {
+   "name": "Recia",
+   "slug": "recia",
+   "category": "Serif",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/recia/300-C7OPE6SKCL.woff2",
+    "fonts-fontshare/recia/300i-U6JQEVH2QQ.woff2",
+    "fonts-fontshare/recia/400-7XCHJ2FE6V.woff2",
+    "fonts-fontshare/recia/400i-2G3TCFNCQI.woff2",
+    "fonts-fontshare/recia/500-YNLBEMQ7XP.woff2",
+    "fonts-fontshare/recia/500i-T2UV4GBFS6.woff2",
+    "fonts-fontshare/recia/600-GPQV7JYHDG.woff2",
+    "fonts-fontshare/recia/600i-BISLLRNPFV.woff2",
+    "fonts-fontshare/recia/700-OWV5NCA573.woff2",
+    "fonts-fontshare/recia/700i-7R2XU2A2GG.woff2"
+   ]
+  },
+  {
+   "name": "Stardom",
+   "slug": "stardom",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/stardom/400-NPPNOUBFWC.woff2"
+   ]
+  },
+  {
+   "name": "Satoshi",
+   "slug": "satoshi",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/satoshi/300-WNDVG7O66E.woff2",
+    "fonts-fontshare/satoshi/300i-MVBFGLEMN2.woff2",
+    "fonts-fontshare/satoshi/400-KFIAZD4RUM.woff2",
+    "fonts-fontshare/satoshi/400i-QOMBWPST76.woff2",
+    "fonts-fontshare/satoshi/500-7AHDUZ4A7L.woff2",
+    "fonts-fontshare/satoshi/500i-ZHME2QIRFR.woff2",
+    "fonts-fontshare/satoshi/700-GHM6WVH6MI.woff2",
+    "fonts-fontshare/satoshi/700i-BKWEE3VKGT.woff2"
+   ]
+  },
+  {
+   "name": "Supreme",
+   "slug": "supreme",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/supreme/300-SPD5TGNFK2.woff2",
+    "fonts-fontshare/supreme/300i-HGC6U3MDLX.woff2",
+    "fonts-fontshare/supreme/400-5ZZU4JM62P.woff2",
+    "fonts-fontshare/supreme/400i-F6KK3SHJZ5.woff2",
+    "fonts-fontshare/supreme/500-GHZ524YD2K.woff2",
+    "fonts-fontshare/supreme/500i-QDQ4GE7GXJ.woff2",
+    "fonts-fontshare/supreme/700-TN7F4YNDQ3.woff2",
+    "fonts-fontshare/supreme/700i-WSOULU7BZA.woff2",
+    "fonts-fontshare/supreme/800-UPZ7O6SKOW.woff2"
+   ]
+  },
+  {
+   "name": "Zina",
+   "slug": "zina",
+   "category": "Display",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/zina/400-EL76ZS7AY2.woff2"
+   ]
+  },
+  {
+   "name": "Ranade",
+   "slug": "ranade",
+   "category": "Sans",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/ranade/300-L5RECMN3L4.woff2",
+    "fonts-fontshare/ranade/300i-V3MB2BKRGQ.woff2",
+    "fonts-fontshare/ranade/400-RXZ46KOEDG.woff2",
+    "fonts-fontshare/ranade/400i-5VJOD3PSYL.woff2",
+    "fonts-fontshare/ranade/500-7BXN3ORLQX.woff2",
+    "fonts-fontshare/ranade/500i-JR6TSG3PUW.woff2",
+    "fonts-fontshare/ranade/700-SK34EB5SQX.woff2",
+    "fonts-fontshare/ranade/700i-CI3H6EW3OV.woff2"
+   ]
+  },
+  {
+   "name": "Telma",
+   "slug": "telma",
+   "category": "Script",
+   "license_type": "itf_ffl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/telma/300-ROMAJ4X7PN.woff2",
+    "fonts-fontshare/telma/400-5OD6IX4HNM.woff2",
+    "fonts-fontshare/telma/500-5P62Q5DLXF.woff2",
+    "fonts-fontshare/telma/700-AI3UKUGMCT.woff2"
+   ]
+  },
+  {
+   "name": "Red Hat Display",
+   "slug": "red-hat-display",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/red-hat-display/300-SFBDRAIT3X.woff2",
+    "fonts-fontshare/red-hat-display/300i-POQKOSIIZJ.woff2",
+    "fonts-fontshare/red-hat-display/400-DKDC2XHYR6.woff2",
+    "fonts-fontshare/red-hat-display/400i-RIJ465I6NG.woff2",
+    "fonts-fontshare/red-hat-display/500-SNRYPPDTYQ.woff2",
+    "fonts-fontshare/red-hat-display/500i-KGYP2SIVMR.woff2",
+    "fonts-fontshare/red-hat-display/600-OVH4LNHLST.woff2",
+    "fonts-fontshare/red-hat-display/600i-T4HYXMTBX2.woff2",
+    "fonts-fontshare/red-hat-display/700-YV7HPRET3Q.woff2",
+    "fonts-fontshare/red-hat-display/700i-U2CA4BMSDJ.woff2",
+    "fonts-fontshare/red-hat-display/800-MYQLOUO4VZ.woff2"
+   ]
+  },
+  {
+   "name": "Sora",
+   "slug": "sora",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/sora/300-LGGBMNVYFC.woff2",
+    "fonts-fontshare/sora/300i-EF2JFYL5FH.woff2",
+    "fonts-fontshare/sora/400-NTHDIHEFNR.woff2",
+    "fonts-fontshare/sora/400i-SHCEFA7WWZ.woff2",
+    "fonts-fontshare/sora/500-OAO3FLMO5K.woff2",
+    "fonts-fontshare/sora/500i-6R5O4NUMV3.woff2",
+    "fonts-fontshare/sora/600-ECOUY4IVDS.woff2",
+    "fonts-fontshare/sora/600i-52D4WKNUZO.woff2",
+    "fonts-fontshare/sora/700-BB6C7YWXOM.woff2",
+    "fonts-fontshare/sora/700i-UFYKCUM5A2.woff2",
+    "fonts-fontshare/sora/800-GIKLZNBPSV.woff2"
+   ]
+  },
+  {
+   "name": "Literata",
+   "slug": "literata",
+   "category": "Serif",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/literata/300-PBIQJW6SMG.woff2",
+    "fonts-fontshare/literata/300i-IX5LTG3ACR.woff2",
+    "fonts-fontshare/literata/400-FXMZX7QWHF.woff2",
+    "fonts-fontshare/literata/400i-WM5LTV2SVH.woff2",
+    "fonts-fontshare/literata/500-XSELBFGCSJ.woff2",
+    "fonts-fontshare/literata/500i-DJNP46EV7B.woff2",
+    "fonts-fontshare/literata/600-73SWKBQ3Q3.woff2",
+    "fonts-fontshare/literata/600i-PLOTXGKTFB.woff2",
+    "fonts-fontshare/literata/700-BYTTXLUEXB.woff2",
+    "fonts-fontshare/literata/700i-ENT7CUPEY7.woff2",
+    "fonts-fontshare/literata/800-JGPWUPY6NK.woff2"
+   ]
+  },
+  {
+   "name": "Merriweather Sans",
+   "slug": "merriweather-sans",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/merriweather-sans/300-FQXTYOQ7YT.woff2",
+    "fonts-fontshare/merriweather-sans/300i-R5SHUXEHNY.woff2",
+    "fonts-fontshare/merriweather-sans/400-F6VEEEYQIM.woff2",
+    "fonts-fontshare/merriweather-sans/400i-AHS4Y7TKIT.woff2",
+    "fonts-fontshare/merriweather-sans/500-HVA4PGVXBE.woff2",
+    "fonts-fontshare/merriweather-sans/500i-FDC5E2YAVL.woff2",
+    "fonts-fontshare/merriweather-sans/600-6C74OQWVMB.woff2",
+    "fonts-fontshare/merriweather-sans/600i-SHK32GHFQ4.woff2",
+    "fonts-fontshare/merriweather-sans/700-FA67PLGPRM.woff2",
+    "fonts-fontshare/merriweather-sans/700i-7KPZYVVCCQ.woff2",
+    "fonts-fontshare/merriweather-sans/800-5WQS2LQELK.woff2"
+   ]
+  },
+  {
+   "name": "Quicksand",
+   "slug": "quicksand",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": null,
+   "files": [
+    "fonts-fontshare/quicksand/300-LMA5Z4Z4AS.woff2",
+    "fonts-fontshare/quicksand/400-QERYRXWWKF.woff2",
+    "fonts-fontshare/quicksand/500-MVH72LSEZW.woff2",
+    "fonts-fontshare/quicksand/600-56RXVFY33T.woff2",
+    "fonts-fontshare/quicksand/700-RJNZ7OVQ2K.woff2"
+   ]
+  },
+  {
+   "name": "Teko",
+   "slug": "teko",
+   "category": "Sans",
+   "license_type": "sil_ofl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/teko/300-VQTF6ZKMDV.woff2",
+    "fonts-fontshare/teko/400-CG3A6KULZU.woff2",
+    "fonts-fontshare/teko/500-HTR57LOXIB.woff2",
+    "fonts-fontshare/teko/600-EEVLZMTJ3A.woff2",
+    "fonts-fontshare/teko/700-PGDLMK64SI.woff2"
+   ]
+  },
+  {
+   "name": "Karma",
+   "slug": "karma",
+   "category": "Serif",
+   "license_type": "sil_ofl",
+   "publisher": "Indian Type Foundry",
+   "files": [
+    "fonts-fontshare/karma/300-43VWPARGFW.woff2",
+    "fonts-fontshare/karma/400-NMFE7IJQ3Z.woff2",
+    "fonts-fontshare/karma/500-NVRDAVXFN5.woff2",
+    "fonts-fontshare/karma/600-OSWV4YQQJS.woff2",
+    "fonts-fontshare/karma/700-7MHLA2AUYZ.woff2"
+   ]
+  }
+ ]
+}

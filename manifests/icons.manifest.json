@@ -1,0 +1,72 @@
+{
+ "generated": "2026-11-11T13:57:53+0800",
+ "total_files": 27278,
+ "unique_names": 6307,
+ "sets": [
+  {
+   "name": "lucide",
+   "dir": "lucide",
+   "version": "1.71.0",
+   "license": "ISC",
+   "source": "https://github.com/lucide-icons/lucide",
+   "note": "stroke, 24px grid, 2px",
+   "variants": {
+    "flat": {
+     "files": 2350,
+     "unique_icons": 2350
+    }
+   },
+   "total_files": 2350
+  },
+  {
+   "name": "heroicons",
+   "dir": "heroicons",
+   "version": "master@2026-11",
+   "license": "MIT",
+   "source": "https://github.com/tailwindlabs/heroicons",
+   "note": "fill/stroke, 16/20/24",
+   "variants": {
+    "16-solid": {
+     "files": 316,
+     "unique_icons": 316
+    },
+    "20-solid": {
+     "files": 324,
+     "unique_icons": 324
+    },
+    "24-outline": {
+     "files": 324,
+     "unique_icons": 324
+    },
+    "24-solid": {
+     "files": 324,
+     "unique_icons": 324
+    }
+   },
+   "total_files": 1288
+  },
+  {
+   "name": "material-symbols",
+   "dir": "material-symbols",
+   "version": "0.48.3",
+   "license": "Apache-2.0",
+   "source": "https://github.com/google/material-design-icons",
+   "note": "filled + outlined, 24px",
+   "variants": {
+    "outlined": {
+     "files": 7880,
+     "unique_icons": 3940
+    },
+    "rounded": {
+     "files": 7880,
+     "unique_icons": 3940
+    },
+    "sharp": {
+     "files": 7880,
+     "unique_icons": 3940
+    }
+   },
+   "total_files": 23640
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+# ---- payloads (rebuilt by tools/, never committed) ----
+/media/
+/packs/
+/fonts/*/
+!/fonts/INDEX.json
+!/fonts/MANIFEST.json
+!/fonts/TOP_FAMILIES.md
+/fonts-fontshare/*/
+!/fonts-fontshare/MANIFEST.json
+/fonts-cjk/
+/icons/lucide/
+/icons/heroicons/
+/icons/material-symbols/
+/icons/INDEX.json
+/animated-icons/
+/index/previews.json
+/index/index.json
+/index/rename_map.json
+/index/lf_urls.json
+/index/lf_batch*.tsv
+
+# rebuilt live indexes sit next to the data
+fonts/INDEX.json
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- editor / os ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
